@@ -19,7 +19,12 @@ public abstract class Product {
     @Column(name="item_id")
     private Long id;
 
-    private String name;
+    private String modelName;
+    private String modelNumber;
+
+    private int releaseYear;
+    private String brand; //SAMSUNG, NVIDIA
+    private String generation;
 
     @OneToMany(mappedBy="product")
     private List<Trade> trades = new ArrayList<>();

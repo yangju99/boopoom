@@ -4,7 +4,9 @@ import com.example.boopoom.exception.NotEnoughPointsException;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,12 +19,14 @@ public class User {
     @Column(name = "user_id")
     private Long id;
 
-    private String name;
+    private String nickName;
     private String email;
-    private String password;
+    private String passwordHash;
+    private LocalDateTime createdAt;
 
     private int points;
     private static final int POINT_AMOUNT = 100;
+    private static final int INITIAL_POINT = 500;
 
     @OneToMany(mappedBy="user")
     private List<Trade> trades = new ArrayList<>();
@@ -41,5 +45,18 @@ public class User {
             throw new NotEnoughPointsException("need more points");
         }
         this.points = restPoints;
+    }
+
+    public static User createUser(String nickName, String email, String password){
+        User user = new User();
+        user.setNickName(nickName);
+        user.setEmail(email);
+        user.setPoints(User.INITIAL_POINT);
+        user.setCreatedAt(LocalDateTime.now());
+
+        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
+        user.setPasswordHash(passwordEncoder.encode(password));
+
+        return user;
     }
 }

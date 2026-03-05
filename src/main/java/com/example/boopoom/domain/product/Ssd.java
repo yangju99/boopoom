@@ -10,4 +10,25 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Ssd extends Product {
+    private int capacityGb;
+
+    public static Ssd createSsd(
+            String modelName,
+            String modelNumber,
+            String brand,
+            String generation,
+            int capacityGb
+    ) {
+        Ssd ssd = new Ssd();
+
+        ssd.setModelName(modelName);
+        ssd.setModelNumber(modelNumber);
+        ssd.setBrand(brand);
+        ssd.setGeneration(generation);
+
+        ssd.setCapacityGb(capacityGb);
+
+        return ssd;
+    }
+
 }
