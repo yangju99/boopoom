@@ -19,12 +19,20 @@ public class User {
     @Column(name = "user_id")
     private Long id;
 
+    @Column(nullable = false, unique = true)
     private String nickName;
+
+    @Column(nullable = false, unique = true)
     private String email;
+
+    @Column(nullable = false)
     private String passwordHash;
+
+    @Column(nullable = false)
     private LocalDateTime createdAt;
 
     @Enumerated(EnumType.STRING)
+    @Column(nullable = false)
     private Role role;
 
     private int points;
@@ -56,10 +64,17 @@ public class User {
         user.setEmail(email);
         user.setPoints(User.INITIAL_POINT);
         user.setCreatedAt(LocalDateTime.now());
+        user.setRole(Role.USER);
 
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         user.setPasswordHash(passwordEncoder.encode(password));
 
         return user;
+    }
+
+    public static User createAdmin(String nickName, String email, String password) {
+        User admin = createUser(nickName, email, password);
+        admin.setRole(Role.ADMIN);
+        return admin;
     }
 }
