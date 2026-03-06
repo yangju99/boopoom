@@ -25,8 +25,7 @@ public class Trade {
     @JoinColumn(name="product_id")
     private Product product;
 
-    @Embedded
-    private Address address;
+    private String location;
 
     private int price;
 
@@ -52,13 +51,13 @@ public class Trade {
         product.addTrade(this);
     }
 
-    public static Trade createTrade(User user, Product product, int price, Address address, Platform platform, DamageStatus damageStatus){
+    public static Trade createTrade(User user, Product product, int price, String location, Platform platform, DamageStatus damageStatus){
         Trade trade = new Trade();
         trade.setUser(user);
         trade.setProduct(product);
 
         trade.setPrice(price);
-        trade.setAddress(address);
+        trade.setLocation(location);
         trade.setPlatform(platform);
         trade.setDamageStatus(damageStatus);
 

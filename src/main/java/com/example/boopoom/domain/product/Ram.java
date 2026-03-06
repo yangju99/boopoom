@@ -1,5 +1,6 @@
 package com.example.boopoom.domain.product;
 
+import com.example.boopoom.web.forms.product.RamForm;
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;
 import lombok.Getter;
@@ -36,5 +37,18 @@ public class Ram extends Product{
 
         return ram;
     }
+    public static Ram createRam(RamForm ramForm) {
+        Ram ram = new Ram();
 
+        ram.setModelName(ramForm.getModelName());
+        ram.setModelNumber(ramForm.getModelNumber());
+        ram.setBrand(ramForm.getBrand());
+        ram.setGeneration(ramForm.getGeneration());
+
+        ram.setCapacityGb(ramForm.getCapacityGb());
+        ram.setClockSpeedMhz(ramForm.getClockSpeedMhz());
+        ram.setCasLatency(ramForm.getCasLatency());
+
+        return ram;
+    }
 }

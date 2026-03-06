@@ -10,9 +10,6 @@ import java.time.LocalDateTime;
 
 //거래 필터링 조건
 public class TradeSearch {
-    private TradeStatus tradeStatus;
-    private Platform platform;
     private LocalDateTime startDate;
-    private LocalDateTime endDate;
-    private Address address;
+    private String category; //G, S, R (gpu, ssd, ram)
 }

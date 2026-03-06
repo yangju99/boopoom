@@ -32,4 +32,11 @@ public abstract class Product {
     public void addTrade(Trade trade) {
         trades.add(trade);
     }
+
+    public String getCategory() {
+        if (this instanceof Gpu) return "G"; // Gpu의 DiscriminatorValue
+        if (this instanceof Ram) return "R";
+        if (this instanceof Ssd) return "S";
+        return "UNKNOWN";
+    }
 }
