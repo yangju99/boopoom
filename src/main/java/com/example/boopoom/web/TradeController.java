@@ -7,19 +7,18 @@ import com.example.boopoom.domain.TradeSearch;
 import com.example.boopoom.domain.product.Product;
 import com.example.boopoom.service.ProductService;
 import com.example.boopoom.service.TradeService;
-import com.example.boopoom.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
+import java.security.Principal;
 import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
 public class TradeController {
     private final TradeService tradeService;
-    private final UserService userService;
     private final ProductService productService;
 
     // 거래 등록 화면에 필요한 상품 목록을 조회해 폼을 보여준다.
@@ -32,21 +31,31 @@ public class TradeController {
 
     // 입력받은 거래 정보를 저장하고 거래 목록 페이지로 이동한다.
     @PostMapping("/trades/new")
-    public String createTrade(@RequestParam("userId") Long userId,
-                              @RequestParam("productId") Long productId,
+    public String createTrade(@RequestParam("productId") Long productId,
                               @RequestParam("price") int price,
                               @RequestParam("location") String location,
                               @RequestParam("platform") Platform platform,
-                              @RequestParam("damageStatus") DamageStatus damageStatus){
-        tradeService.reportTrade(userId, productId, price, location, platform, damageStatus);
+                              @RequestParam("damageStatus") DamageStatus damageStatus,
+                              Principal principal){
+        tradeService.reportTrade(principal.getName(), productId, price, location, platform, damageStatus);
         return "redirect:/trades";
     }
 
-    // 검색 조건에 맞는 거래 목록을 조회해 화면에 표시한다.
+    // 유저는 검색 시 포인트를 사용하여 거래 목록을 조회한다.
     @GetMapping("/trades")
     public String tradeList(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
-                       Model model){
-        List<Trade> trades = tradeService.findTrades(tradeSearch);
+                            Principal principal,
+                            Model model){
+        List<Trade> trades = tradeService.findTradesForUser(tradeSearch, principal.getName());
+        model.addAttribute("trades", trades);
+        return "trades/tradeList";
+    }
+
+    // 관리자는 포인트 차감 없이 거래 목록을 조회한다.
+    @GetMapping("/admin/trades")
+    public String adminTradeList(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
+                                 Model model){
+        List<Trade> trades = tradeService.findTradesForAdmin(tradeSearch);
         model.addAttribute("trades", trades);
         return "trades/tradeList";
     }

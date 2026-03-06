@@ -4,7 +4,6 @@ import com.example.boopoom.exception.NotEnoughPointsException;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -58,22 +57,20 @@ public class User {
         this.points = restPoints;
     }
 
-    public static User createUser(String nickName, String email, String password){
+    public static User createUser(String nickName, String email, String encodedPasswordHash){
         User user = new User();
         user.setNickName(nickName);
         user.setEmail(email);
+        user.setPasswordHash(encodedPasswordHash);
         user.setPoints(User.INITIAL_POINT);
         user.setCreatedAt(LocalDateTime.now());
         user.setRole(Role.USER);
 
-        BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-        user.setPasswordHash(passwordEncoder.encode(password));
-
         return user;
     }
 
-    public static User createAdmin(String nickName, String email, String password) {
-        User admin = createUser(nickName, email, password);
+    public static User createAdmin(String nickName, String email, String encodedPasswordHash) {
+        User admin = createUser(nickName, email, encodedPasswordHash);
         admin.setRole(Role.ADMIN);
         return admin;
     }

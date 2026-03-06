@@ -22,14 +22,15 @@ public class TradeService {
 
     // user의
     @Transactional
-    public Long reportTrade(Long userId,
+    public Long reportTrade(String userEmail,
                             Long productId,
                             int price,
                             String location,
                             Platform platform,
                             DamageStatus damageStatus) {
 
-        User user = userRepository.findOne(userId);
+        User user = userRepository.findOneByEmail(userEmail)
+                .orElseThrow(() -> new IllegalStateException("존재하지 않는 사용자입니다."));
         Product product = productRepository.findOne(productId);
 
         Trade trade = Trade.createTrade(user, product, price, location, platform, damageStatus);
@@ -54,15 +55,16 @@ public class TradeService {
     }
 
     //관리자용 trade 조회
-    public List<Trade> findTrades(TradeSearch tradeSearch) {
+    public List<Trade> findTradesForAdmin(TradeSearch tradeSearch) {
         return tradeRepository.findAll(tradeSearch);
     }
 
     //유저용 trade 조회 (포인트 사용)
-    public List<Trade> findTrades(TradeSearch tradeSearch, Long userId) {
-        User user = userRepository.findOne(userId);
+    @Transactional
+    public List<Trade> findTradesForUser(TradeSearch tradeSearch, String userEmail) {
+        User user = userRepository.findOneByEmail(userEmail)
+                .orElseThrow(() -> new IllegalStateException("존재하지 않는 사용자입니다."));
         user.usePoints();
         return tradeRepository.findAll(tradeSearch);
-
     }
 }

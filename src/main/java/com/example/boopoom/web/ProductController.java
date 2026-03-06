@@ -67,6 +67,13 @@ public class ProductController {
         return "products/productList";
     }
 
+    @GetMapping("/products/{productId}")
+    public String productDetail(@PathVariable("productId") Long productId, Model model){
+        Product product = productService.findOne(productId);
+        model.addAttribute("product", product);
+        return "products/productDetail";
+    }
+
     @GetMapping("/products/{productId}/edit")
     public String updateProductForm(@PathVariable("productId") Long productId, Model model){
         Product product = productService.findOne(productId);

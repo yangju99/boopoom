@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import jakarta.validation.Valid;
 
@@ -31,8 +32,7 @@ public class UserController {
             return "users/createUserForm";
         }
 
-        User user = User.createUser(form.getNickName(), form.getEmail(), form.getPassword());
-        userService.join(user);
+        userService.registerUser(form.getNickName(), form.getEmail(), form.getPassword());
         return "redirect:/";
     }
 
@@ -41,5 +41,12 @@ public class UserController {
         List<User> users = userService.findUsers();
         model.addAttribute("users", users);
         return "users/userList";
+    }
+
+    @GetMapping("/users/{userId}")
+    public String userDetail(@PathVariable("userId") Long userId, Model model){
+        User user = userService.findOne(userId);
+        model.addAttribute("user", user);
+        return "users/userDetail";
     }
 }

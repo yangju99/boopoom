@@ -19,13 +19,13 @@ public final class AccessRules {
             "/products/*/edit",
             "/users",
             "/users/*",
-            "/admin/trades/**"
+            "/admin/trades"
     };
 
     // User only: trade report and point-based trade search
     public static final String[] USER_PATHS = {
             "/trades/new",
-            "/trades/search/**"
+            "/trades"
     };
 
     // Shared: product list/detail for both user and admin

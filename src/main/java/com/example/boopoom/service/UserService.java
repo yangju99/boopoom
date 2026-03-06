@@ -3,6 +3,7 @@ package com.example.boopoom.service;
 import com.example.boopoom.domain.User;
 import com.example.boopoom.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -13,18 +14,30 @@ import java.util.Optional;
 @Transactional(readOnly = true)
 public class UserService {
     private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
 
     @Autowired
-    public UserService(UserRepository userRepository){
+    public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder){
         this.userRepository = userRepository;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Transactional
-    public Long join(User user)
-    {
+    public Long registerUser(String nickName, String email, String rawPassword) {
+        String encodedPasswordHash = passwordEncoder.encode(rawPassword);
+        User user = User.createUser(nickName, email, encodedPasswordHash);
         validateDuplicateMember(user);
         userRepository.save(user);
         return user.getId();
+    }
+
+    @Transactional
+    public Long registerAdmin(String nickName, String email, String rawPassword) {
+        String encodedPasswordHash = passwordEncoder.encode(rawPassword);
+        User admin = User.createAdmin(nickName, email, encodedPasswordHash);
+        validateDuplicateMember(admin);
+        userRepository.save(admin);
+        return admin.getId();
     }
 
     private void validateDuplicateMember(User user) {
