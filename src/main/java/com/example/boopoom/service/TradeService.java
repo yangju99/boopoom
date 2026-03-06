@@ -9,6 +9,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @Service
@@ -27,13 +28,14 @@ public class TradeService {
                             int price,
                             String location,
                             Platform platform,
-                            DamageStatus damageStatus) {
+                            DamageStatus damageStatus,
+                            LocalDate tradeDate) {
 
         User user = userRepository.findOneByEmail(userEmail)
                 .orElseThrow(() -> new IllegalStateException("존재하지 않는 사용자입니다."));
         Product product = productRepository.findOne(productId);
 
-        Trade trade = Trade.createTrade(user, product, price, location, platform, damageStatus);
+        Trade trade = Trade.createTrade(user, product, price, location, platform, damageStatus, tradeDate);
 
         tradeRepository.save(trade);
 

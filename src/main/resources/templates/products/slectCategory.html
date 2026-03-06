@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: header('상품 카테고리 선택')}"></head>
+<body>
+<div th:replace="~{fragments/bodyHeader :: bodyHeader}"></div>
+
+<main class="container py-4">
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <h1 class="h4 mb-3">상품 등록 카테고리 선택</h1>
+            <div class="d-grid gap-2 d-md-flex">
+                <a class="btn btn-dark" th:href="@{/products/new/G}">GPU</a>
+                <a class="btn btn-dark" th:href="@{/products/new/S}">SSD</a>
+                <a class="btn btn-dark" th:href="@{/products/new/R}">RAM</a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+<th:block th:replace="~{fragments/footer :: scripts}"></th:block>
+</body>
+</html>

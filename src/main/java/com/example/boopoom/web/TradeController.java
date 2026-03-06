@@ -8,11 +8,13 @@ import com.example.boopoom.domain.product.Product;
 import com.example.boopoom.service.ProductService;
 import com.example.boopoom.service.TradeService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 import java.security.Principal;
+import java.time.LocalDate;
 import java.util.List;
 
 @Controller
@@ -36,13 +38,22 @@ public class TradeController {
                               @RequestParam("location") String location,
                               @RequestParam("platform") Platform platform,
                               @RequestParam("damageStatus") DamageStatus damageStatus,
+                              @RequestParam("tradeDate") @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate tradeDate,
                               Principal principal){
-        tradeService.reportTrade(principal.getName(), productId, price, location, platform, damageStatus);
-        return "redirect:/trades";
+        tradeService.reportTrade(principal.getName(), productId, price, location, platform, damageStatus, tradeDate);
+        return "redirect:/";
     }
 
     // 유저는 검색 시 포인트를 사용하여 거래 목록을 조회한다.
     @GetMapping("/trades")
+    public String tradeSearchForm(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
+                                  Model model){
+        model.addAttribute("searchAction", "/trades/search");
+        return "trades/tradeSearchForm";
+    }
+
+    // 유저가 조회 버튼을 눌렀을 때 포인트를 사용하여 거래 목록을 조회한다.
+    @PostMapping("/trades/search")
     public String tradeList(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
                             Principal principal,
                             Model model){
@@ -53,6 +64,14 @@ public class TradeController {
 
     // 관리자는 포인트 차감 없이 거래 목록을 조회한다.
     @GetMapping("/admin/trades")
+    public String adminTradeSearchForm(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
+                                       Model model){
+        model.addAttribute("searchAction", "/admin/trades/search");
+        return "trades/tradeSearchForm";
+    }
+
+    // 관리자가 조회 버튼을 눌렀을 때 거래 목록을 조회한다.
+    @PostMapping("/admin/trades/search")
     public String adminTradeList(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
                                  Model model){
         List<Trade> trades = tradeService.findTradesForAdmin(tradeSearch);

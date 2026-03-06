@@ -39,4 +39,11 @@ public abstract class Product {
         if (this instanceof Ssd) return "S";
         return "UNKNOWN";
     }
+
+    public String getCategoryDisplay() {
+        if (this instanceof Gpu) return "GPU";
+        if (this instanceof Ram) return "RAM";
+        if (this instanceof Ssd) return "SSD";
+        return "UNKNOWN";
+    }
 }

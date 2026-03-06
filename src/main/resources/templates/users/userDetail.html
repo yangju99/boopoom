@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: header('유저 상세')}"></head>
+<body>
+<div th:replace="~{fragments/bodyHeader :: bodyHeader}"></div>
+<main class="container py-4">
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <h1 class="h4 mb-3">유저 상세 (관리자)</h1>
+            <dl class="row mb-0">
+                <dt class="col-sm-3">ID</dt><dd class="col-sm-9" th:text="${user.id}">1</dd>
+                <dt class="col-sm-3">닉네임</dt><dd class="col-sm-9" th:text="${user.nickName}">nick</dd>
+                <dt class="col-sm-3">이메일</dt><dd class="col-sm-9" th:text="${user.email}">a@b.com</dd>
+                <dt class="col-sm-3">권한</dt><dd class="col-sm-9" th:text="${user.role}">USER</dd>
+                <dt class="col-sm-3">포인트</dt><dd class="col-sm-9" th:text="${user.points}">500</dd>
+                <dt class="col-sm-3">가입일</dt><dd class="col-sm-9" th:text="${#temporals.format(user.createdAt, 'yyyy-MM-dd HH:mm')}">2026-01-01 10:00</dd>
+            </dl>
+            <a class="btn btn-outline-dark mt-3" th:href="@{/users}">목록</a>
+        </div>
+    </div>
+</main>
+<div th:replace="~{fragments/footer :: footer}"></div>
+<th:block th:replace="~{fragments/footer :: scripts}"></th:block>
+</body>
+</html>

@@ -1,31 +1,39 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/header :: header}">
-    <title>Hello</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="~{fragments/header :: header('Boopoom')}"></head>
 <body>
-<div class="container">
-    <div th:replace="~{fragments/bodyHeader :: bodyHeader}" />
-    <div class="jumbotron">
-        <h1>HELLO SHOP</h1>
-        <p class="lead">회원 기능</p>
-        <p>
-            <a class="btn btn-lg btn-secondary" href="/users/new">회원 가입</a>
-            <a class="btn btn-lg btn-secondary" href="/users">회원 목록</a>
-        </p>
-        <p class="lead">상품 기능</p>
-        <p>
-            <a class="btn btn-lg btn-dark" href="/products/new">상품 등록</a>
-            <a class="btn btn-lg btn-dark" href="/products">상품 목록</a>
-        </p>
-        <p class="lead">주문 기능</p>
-        <p>
-            <a class="btn btn-lg btn-info" href="/trades/new">거래 등록</a>
-            <a class="btn btn-lg btn-info" href="/trades">거래 내역</a>
-        </p>
+<div th:replace="~{fragments/bodyHeader :: bodyHeader}"></div>
+
+<main class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-lg-8">
+            <div class="card shadow-sm">
+                <div class="card-body p-5 text-center">
+                    <h1 class="hero-title display-6 mb-3">Boopoom</h1>
+                    <p class="text-muted mb-4">중고 거래 데이터를 제보하고, 포인트로 시세를 확인하세요.</p>
+
+                    <div class="d-grid gap-2" sec:authorize="isAnonymous()">
+                        <a class="btn btn-primary" th:href="@{/login}">로그인</a>
+                        <a class="btn btn-outline-secondary" th:href="@{/users/new}">회원가입</a>
+                    </div>
+
+                    <div sec:authorize="hasRole('USER')" class="d-grid gap-2">
+                        <a class="btn btn-primary" th:href="@{/trades}">거래 조회 (포인트 사용)</a>
+                        <a class="btn btn-outline-primary" th:href="@{/trades/new}">거래 제보 (포인트 획득)</a>
+                    </div>
+
+                    <div sec:authorize="hasRole('ADMIN')" class="d-grid gap-2">
+                        <a class="btn btn-dark" th:href="@{/products}">상품 목록</a>
+                        <a class="btn btn-dark" th:href="@{/products/new}">상품 등록</a>
+                        <a class="btn btn-dark" th:href="@{/users}">유저 목록</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div th:replace="~{fragments/footer :: footer}" />
-</div> <!-- /container -->
+</main>
+
+<div th:replace="~{fragments/footer :: footer}"></div>
+<th:block th:replace="~{fragments/footer :: scripts}"></th:block>
 </body>
 </html>

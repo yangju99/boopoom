@@ -36,6 +36,7 @@ public class Ssd extends Product {
 
         ssd.setModelName(ssdForm.getModelName());
         ssd.setModelNumber(ssdForm.getModelNumber());
+        ssd.setReleaseYear(ssdForm.getReleaseYear());
         ssd.setBrand(ssdForm.getBrand());
         ssd.setGeneration(ssdForm.getGeneration());
 

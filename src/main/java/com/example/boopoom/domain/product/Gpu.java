@@ -41,6 +41,7 @@ public class Gpu extends Product{
         Gpu gpu = new Gpu();
         gpu.setModelName(gpuForm.getModelName());
         gpu.setModelNumber(gpuForm.getModelNumber());
+        gpu.setReleaseYear(gpuForm.getReleaseYear());
         gpu.setBrand(gpuForm.getBrand());
         gpu.setGeneration(gpuForm.getGeneration());
 

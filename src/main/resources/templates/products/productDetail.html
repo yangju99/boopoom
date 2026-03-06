@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="~{fragments/header :: header('상품 상세')}"></head>
+<body>
+<div th:replace="~{fragments/bodyHeader :: bodyHeader}"></div>
+<main class="container py-4">
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <h1 class="h4 mb-3">상품 상세</h1>
+            <dl class="row mb-0">
+                <dt class="col-sm-3">ID</dt><dd class="col-sm-9" th:text="${product.id}">1</dd>
+                <dt class="col-sm-3">카테고리</dt><dd class="col-sm-9" th:text="${product.categoryDisplay}">GPU</dd>
+                <dt class="col-sm-3">모델명</dt><dd class="col-sm-9" th:text="${product.modelName}">RTX</dd>
+                <dt class="col-sm-3">모델번호</dt><dd class="col-sm-9" th:text="${product.modelNumber}">4080</dd>
+                <dt class="col-sm-3">브랜드</dt><dd class="col-sm-9" th:text="${product.brand}">NVIDIA</dd>
+                <dt class="col-sm-3">세대</dt><dd class="col-sm-9" th:text="${product.generation}">40</dd>
+                <dt class="col-sm-3">출시연도</dt><dd class="col-sm-9" th:text="${product.releaseYear}">2023</dd>
+            </dl>
+            <div class="mt-3 d-flex gap-2">
+                <a class="btn btn-outline-primary" th:href="@{/products}">목록</a>
+                <a sec:authorize="hasRole('ADMIN')" class="btn btn-dark" th:href="@{/products/{id}/edit(id=${product.id})}">수정</a>
+            </div>
+        </div>
+    </div>
+</main>
+<div th:replace="~{fragments/footer :: footer}"></div>
+<th:block th:replace="~{fragments/footer :: scripts}"></th:block>
+</body>
+</html>

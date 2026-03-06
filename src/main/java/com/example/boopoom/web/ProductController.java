@@ -44,6 +44,18 @@ public class ProductController {
         }
     }
 
+    @ModelAttribute("form")
+    public ProductForm productForm(@PathVariable(value = "productCategory", required = false) String productCategory) {
+        if ("G".equals(productCategory)) {
+            return new GpuForm();
+        } else if ("S".equals(productCategory)) {
+            return new SsdForm();
+        } else if ("R".equals(productCategory)) {
+            return new RamForm();
+        }
+        return new ProductForm();
+    }
+
     @PostMapping("/products/new/{productCategory}")
     public String create(@PathVariable("productCategory") String productCategory,
                          @ModelAttribute("form") ProductForm productForm){
@@ -57,7 +69,7 @@ public class ProductController {
             Ram ram = Ram.createRam((RamForm) productForm);
             productService.saveProduct(ram);
         }
-        return "redirect:/products";
+        return "redirect:/";
     }
 
     @GetMapping("/products")

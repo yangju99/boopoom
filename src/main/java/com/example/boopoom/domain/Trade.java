@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Entity
 @Getter
@@ -29,7 +29,7 @@ public class Trade {
 
     private int price;
 
-    private LocalDateTime tradeDate;
+    private LocalDate tradeDate;
 
     @Enumerated(EnumType.STRING)
     private TradeStatus status;
@@ -51,7 +51,13 @@ public class Trade {
         product.addTrade(this);
     }
 
-    public static Trade createTrade(User user, Product product, int price, String location, Platform platform, DamageStatus damageStatus){
+    public static Trade createTrade(User user,
+                                    Product product,
+                                    int price,
+                                    String location,
+                                    Platform platform,
+                                    DamageStatus damageStatus,
+                                    LocalDate tradeDate){
         Trade trade = new Trade();
         trade.setUser(user);
         trade.setProduct(product);
@@ -63,7 +69,7 @@ public class Trade {
 
         //처음 등록할때 pending 상태로 등록
         trade.setStatus(TradeStatus.PENDING);
-        trade.setTradeDate(LocalDateTime.now());
+        trade.setTradeDate(tradeDate);
 
         return trade;
 

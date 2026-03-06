@@ -39,7 +39,7 @@ public class TradeRepository {
             }
             jpql += " t.tradeDate > :startDate";
         }
-        //회원 이름 검색
+        //상품 카테고리 검색
         if (StringUtils.hasText(tradeSearch.getCategory())) {
             if (isFirstCondition) {
                 jpql += " where";
@@ -47,15 +47,18 @@ public class TradeRepository {
             } else {
                 jpql += " and";
             }
-            jpql += " p.dtype = :category";
+            if ("G".equals(tradeSearch.getCategory())) {
+                jpql += " type(p) = Gpu";
+            } else if ("R".equals(tradeSearch.getCategory())) {
+                jpql += " type(p) = Ram";
+            } else if ("S".equals(tradeSearch.getCategory())) {
+                jpql += " type(p) = Ssd";
+            }
         }
         TypedQuery<Trade> query = em.createQuery(jpql, Trade.class)
                 .setMaxResults(100); //최대 1000건
         if (tradeSearch.getStartDate() != null) {
             query = query.setParameter("startDate", tradeSearch.getStartDate());
-        }
-        if (StringUtils.hasText(tradeSearch.getCategory())) {
-            query = query.setParameter("category", tradeSearch.getCategory());
         }
         return query.getResultList();
     }

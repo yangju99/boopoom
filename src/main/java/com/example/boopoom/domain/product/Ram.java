@@ -42,6 +42,7 @@ public class Ram extends Product{
 
         ram.setModelName(ramForm.getModelName());
         ram.setModelNumber(ramForm.getModelNumber());
+        ram.setReleaseYear(ramForm.getReleaseYear());
         ram.setBrand(ramForm.getBrand());
         ram.setGeneration(ramForm.getGeneration());
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head th:replace="~{fragments/header :: header('거래 조회 조건')}"></head>
+<body>
+<div th:replace="~{fragments/bodyHeader :: bodyHeader}"></div>
+<main class="container py-4">
+    <div class="card shadow-sm">
+        <div class="card-body p-4">
+            <h1 class="h4 mb-3">거래 조회 조건</h1>
+            <form method="post" th:action="${searchAction}" th:object="${tradeSearch}">
+                <div class="row g-3 align-items-end">
+                    <div class="col-md-4">
+                        <label class="form-label">시작 날짜</label>
+                        <input class="form-control" type="date" th:field="*{startDate}">
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">카테고리</label>
+                        <select class="form-select" th:field="*{category}">
+                            <option value="">전체</option>
+                            <option value="G">GPU</option>
+                            <option value="R">RAM</option>
+                            <option value="S">SSD</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary w-100" type="submit">조회</button>
+                    </div>
+                </div>
+            </form>
+            <p class="text-muted mt-3 mb-0 small" sec:authorize="hasRole('USER')">
+                유저 조회는 조회 버튼을 누를 때 포인트가 차감됩니다.
+            </p>
+        </div>
+    </div>
+</main>
+<div th:replace="~{fragments/footer :: footer}"></div>
+<th:block th:replace="~{fragments/footer :: scripts}"></th:block>
+</body>
+</html>

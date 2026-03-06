@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public abstract class ProductForm {
+public class ProductForm {
 
     private String modelName;
     private String modelNumber;
