@@ -22,6 +22,7 @@ public class TradeController {
     private final UserService userService;
     private final ProductService productService;
 
+    // 거래 등록 화면에 필요한 상품 목록을 조회해 폼을 보여준다.
     @GetMapping("/trades/new")
     public String reportTradeForm(Model model){
         List<Product> products = productService.findProducts();
@@ -29,6 +30,7 @@ public class TradeController {
         return "trades/tradeForm";
     }
 
+    // 입력받은 거래 정보를 저장하고 거래 목록 페이지로 이동한다.
     @PostMapping("/trades/new")
     public String createTrade(@RequestParam("userId") Long userId,
                               @RequestParam("productId") Long productId,
@@ -40,7 +42,7 @@ public class TradeController {
         return "redirect:/trades";
     }
 
-    //관리자용 (trade 조회해도 point 안깎임)
+    // 검색 조건에 맞는 거래 목록을 조회해 화면에 표시한다.
     @GetMapping("/trades")
     public String tradeList(@ModelAttribute("tradeSearch") TradeSearch tradeSearch,
                        Model model){
@@ -49,6 +51,7 @@ public class TradeController {
         return "trades/tradeList";
     }
 
+    // 선택한 거래를 취소 처리한 뒤 거래 목록 페이지로 이동한다.
     @PostMapping(value="/trades/{tradeId}/cancel")
     public String cancelTrade(@PathVariable("tradeId") Long tradeId){
         tradeService.cancelTrade(tradeId);

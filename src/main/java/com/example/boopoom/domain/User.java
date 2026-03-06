@@ -24,6 +24,9 @@ public class User {
     private String passwordHash;
     private LocalDateTime createdAt;
 
+    @Enumerated(EnumType.STRING)
+    private Role role;
+
     private int points;
     private static final int POINT_AMOUNT = 100;
     private static final int INITIAL_POINT = 500;

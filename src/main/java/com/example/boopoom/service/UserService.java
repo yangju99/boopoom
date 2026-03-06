@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional(readOnly = true)
@@ -27,13 +28,13 @@ public class UserService {
     }
 
     private void validateDuplicateMember(User user) {
-        List<User> findByEmail = userRepository.findByEmail(user.getEmail());
-        List<User> findByNickName = userRepository.findByNickName(user.getNickName());
-        if (!findByEmail.isEmpty() || !findByNickName.isEmpty() ){
+        Optional<User> findByEmail = userRepository.findOneByEmail(user.getEmail());
+        Optional<User> findByNickName = userRepository.findOneByNickName(user.getNickName());
+
+        if (findByEmail.isPresent() || findByNickName.isPresent()) {
             throw new IllegalStateException("이미 존재하는 이메일 혹은 닉네임입니다.");
         }
     }
-
     public List<User> findUsers(){
         return userRepository.findAll();
     }

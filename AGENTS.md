@@ -1,288 +1,163 @@
-# AGENTS.md - Boopoom Project Guidelines
+# AGENTS.md - Boopoom Coding Guide for Agents
 
-## Project Overview
+This file defines coding and workflow conventions for agentic tools working in this repo.
+It is based on current source code, Gradle config, and repository layout.
 
-Boopoom is a Spring Boot 4.0.3 application with Java 21 using Gradle. It's a product trading platform with JPA entities, Spring Security, Thymeleaf templates, and MySQL database.
+## Rule Sources (Cursor/Copilot)
+- `.cursor/rules/`: not present
+- `.cursorrules`: not present
+- `.github/copilot-instructions.md`: not present
+- This `AGENTS.md` is the primary instruction file for coding agents.
 
-## Build Commands
+## Project Snapshot
+- Stack: Java 21, Spring Boot 4.0.3, Gradle Wrapper, Thymeleaf, Spring MVC, Spring Data JPA, Spring Security.
+- Persistence: MySQL via `com.mysql:mysql-connector-j`.
+- Package root: `com.example.boopoom`.
+- Architecture: controller (`web`) -> service (`service`) -> repository (`repository`) -> domain (`domain`).
+- Domain includes JPA inheritance for products (`Gpu`, `Ram`, `Ssd`).
+- Tests currently use JUnit 5 + `@SpringBootTest`.
 
-### Gradle Wrapper
+## Repository Layout
+- `src/main/java/com/example/boopoom/domain`: entities, enums, search DTOs.
+- `src/main/java/com/example/boopoom/domain/product`: abstract `Product` and concrete subtypes.
+- `src/main/java/com/example/boopoom/repository`: `EntityManager`-based repositories.
+- `src/main/java/com/example/boopoom/service`: transactional business logic.
+- `src/main/java/com/example/boopoom/web`: MVC controllers and form DTOs.
+- `src/main/resources/templates`: Thymeleaf templates.
+- `src/test/java`: integration tests.
+
+## Build, Lint, and Test Commands
+Run all commands from repository root (`/Users/jyyang/Desktop/project/boopoom`).
+
+### Build and Run
 ```bash
-./gradlew build          # Build the project (compiles, tests)
-./gradlew bootRun       # Run the application
-./gradlew clean         # Clean build artifacts
-./gradlew test          # Run all tests
+./gradlew clean
+./gradlew build
+./gradlew bootRun
+./gradlew bootJar
+./gradlew compileJava
 ```
 
-### Running Tests
+### Verification / Lint
 ```bash
-./gradlew test --tests "BoopoomApplicationTests"         # Run specific test class
-./gradlew test --tests "BoopoomApplicationTests.test*"  # Run tests matching pattern
-./gradlew test --tests "*ServiceTest"                    # Run all service tests
-./gradlew test --info                                     # Run tests with verbose output
+./gradlew check
+./gradlew test
 ```
+- There is no dedicated lint plugin configured (no Checkstyle/Spotless/PMD task in `build.gradle`).
+- Treat `./gradlew check` and `./gradlew compileJava` as the baseline quality gates.
 
-### Other Useful Commands
+### Single Test Execution (Important)
 ```bash
-./gradlew bootJar           # Build executable JAR
-./gradlew dependencies      # List all dependencies
-./gradlew --status         # Check Gradle daemon status
-./gradlew compileJava      # Compile Java sources only
+# Single test class (preferred format)
+./gradlew test --tests "com.example.boopoom.BoopoomApplicationTests"
+
+# Single test method
+./gradlew test --tests "com.example.boopoom.BoopoomApplicationTests.contextLoads"
+
+# Pattern match
+./gradlew test --tests "*ApplicationTests"
+```
+- Add `--info` when debugging failing tests.
+
+### Useful Diagnostics
+```bash
+./gradlew tasks --all
+./gradlew dependencies
+./gradlew --status
 ```
 
-## Project Structure
-```
-src/main/java/com/example/boopoom/
-├── BoopoomApplication.java          # Main entry point
-├── domain/                          # JPA entities (User, Trade, etc.)
-│   ├── product/                     # Product hierarchy (inheritance)
-│   ├── Platform.java                # Enum: STEAM, EPIC_GAMES, etc.
-│   ├── DamageStatus.java            # Enum: NEW, DAMAGED, etc.
-│   └── TradeStatus.java             # Enum: PENDING, COMPLETED, etc.
-├── repository/                      # Data access layer
-├── service/                         # Business logic
-├── web/                             # Controllers
-│   └── forms/                       # Form DTOs for Thymeleaf
-└── exception/                       # Custom exceptions
-
-src/main/resources/
-├── application.properties           # Configuration
-├── templates/                       # Thymeleaf views
-└── static/                          # CSS, JS assets
-```
-
-## Code Style
-
-### Naming Conventions
-- **Classes/Interfaces**: PascalCase (`UserService`, `TradeController`, `Product`)
-- **Methods**: camelCase (`findUsers()`, `createTrade()`, `findByEmail()`)
-- **Variables**: camelCase (`userId`, `nickName`, `passwordHash`)
-- **Constants**: UPPER_SNAKE_CASE (`POINT_AMOUNT`, `INITIAL_POINT`)
-- **Packages**: lowercase (`com.example.boopoom.domain`)
-- **Test Classes**: `ClassNameTests` (e.g., `UserServiceTests`)
+## Java and Spring Style Conventions
 
 ### Formatting
-- **Indentation**: 4 spaces (no tabs)
-- **Braces**: Same-line opening braces
-- **Line length**: Under 120 characters
-- **No spaces** after method names: `findUsers()` not `findUsers ()`
+- Use 4 spaces for indentation.
+- Use same-line opening braces.
+- Keep lines near 120 chars max.
+- Use one blank line between logical sections; avoid excessive vertical whitespace.
+- Avoid trailing whitespace.
 
-### Import Order
-1. `java`/`javax` packages
-2. `org.springframework` packages
-3. Other external libraries
-4. Internal project packages
+### Imports
+- Prefer explicit imports over wildcard imports in new/edited code.
+- Suggested import order:
+  1) `java.*`
+  2) `jakarta.*`
+  3) `org.springframework.*`
+  4) `lombok.*`
+  5) `com.example.boopoom.*`
+- Keep static imports grouped separately at the end.
+- When touching legacy files, avoid unrelated import churn.
 
-## Entity Design
+### Naming
+- Classes/interfaces/enums: `PascalCase`.
+- Methods/fields/params/local vars: `camelCase`.
+- Constants: `UPPER_SNAKE_CASE`.
+- Packages: lowercase.
+- Test classes: `ClassNameTests`.
+- Test methods: `methodName_shouldExpectedBehavior` when practical.
 
-### Basic Entity Pattern
-```java
-@Entity
-@Getter
-@Setter
-public class User {
-    @Id
-    @GeneratedValue
-    @Column(name = "user_id")
-    private Long id;
+### Types and Data Modeling
+- Use `Long` for entity identifiers.
+- Use `List<T>` for collections.
+- Use `LocalDateTime` for timestamps (existing pattern in `User`, `Trade`, `TradeSearch`).
+- Use enums for finite state (`TradeStatus`, `DamageStatus`, `Platform`).
+- Prefer primitives (`int`) only when null is not a valid state.
+- Use DTO/form types under `web/forms` for controller binding.
 
-    private String nickName;
-    private String email;
-    private String passwordHash;
+### Lombok
+- Existing code uses `@Getter`, `@Setter`, and `@RequiredArgsConstructor` heavily.
+- Keep Lombok usage consistent with the surrounding file.
+- Do not introduce Lombok features that obscure behavior (e.g., broad `@Data` on entities).
 
-    @OneToMany(mappedBy = "user")
-    private List<Trade> trades = new ArrayList<>();
+## Layer-Specific Conventions
 
-    public static User createUser(String nickName, String email, String password) {
-        User user = new User();
-        user.setNickName(nickName);
-        user.setEmail(email);
-        BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
-        user.setPasswordHash(encoder.encode(password));
-        return user;
-    }
-}
-```
+### Domain / Entity Layer
+- Use `@Entity` with JPA annotations (`@Id`, `@GeneratedValue`, `@Column`, `@Enumerated`).
+- Keep association mappings explicit (`@ManyToOne`, `@OneToMany`, `mappedBy`, lazy loading).
+- Keep domain behavior in entities where appropriate (`Trade.cancel`, `Trade.complete`).
+- Prefer static factory methods (`createUser`, `createTrade`, `createGpu/createRam/createSsd`).
+- Maintain both sides of bidirectional associations via convenience methods.
 
-### JPA Conventions
-- Use `@Entity`, `@Table`, `@Column` annotations
-- Use `@Id`, `@GeneratedValue` for primary keys
-- Use `@Enumerated(EnumType.STRING)` for enums
-- Use lazy fetching (`FetchType.LAZY`) for relationships
-- Use `@OneToMany`, `@ManyToOne`, `@ManyToMany` with `mappedBy`
-- Entities require no-arg constructor (Lombok handles this)
-- Use factory methods (`createUser()`) for object creation, not constructors
+### Repository Layer
+- Repositories are `EntityManager`-based classes, not Spring Data interfaces.
+- Use JPQL with named parameters.
+- Return domain objects / `List<T>` directly.
+- Keep query construction readable; avoid hard-coded magic limits unless documented.
 
-## Service Layer
+### Service Layer
+- Annotate services with `@Service`.
+- Default to `@Transactional(readOnly = true)` at class level.
+- Add method-level `@Transactional` for write operations.
+- Keep business validation in services before persistence.
+- Inject dependencies via constructor (`@RequiredArgsConstructor` preferred).
 
-### Service Pattern
-```java
-@Service
-@Transactional(readOnly = true)
-public class UserService {
-    private final UserRepository userRepository;
+### Web Layer (Thymeleaf MVC)
+- Use `@Controller` and view-name returns for server-rendered pages.
+- Bind inputs via form DTOs and `@ModelAttribute` / `@RequestParam`.
+- Use `@Valid` + `BindingResult` when validation rules are present.
+- Keep controllers thin: delegate core logic to services.
 
-    @Autowired
-    public UserService(UserRepository userRepository) {
-        this.userRepository = userRepository;
-    }
+## Error Handling and Validation
+- Use runtime exceptions for business rule violations (`IllegalStateException`, custom exceptions).
+- Custom business exceptions belong in `src/main/java/com/example/boopoom/exception`.
+- User-facing business messages are often Korean; keep new messages consistent with feature context.
+- Add bean validation annotations (`@NotBlank`, `@Email`, etc.) on form fields when introducing new forms.
 
-    @Transactional
-    public Long join(User user) {
-        validateDuplicate(user);
-        userRepository.save(user);
-        return user.getId();
-    }
+## Security and Sensitive Data
+- Password hashing uses `BCryptPasswordEncoder` in domain factory logic.
+- Never log secrets, credentials, or password hashes.
+- `application.properties` currently contains local DB credentials; do not duplicate secrets in code/tests/docs.
+- Prefer environment-specific overrides for local secrets.
 
-    private void validateDuplicate(User user) {
-        if (!userRepository.findByEmail(user.getEmail()).isEmpty()) {
-            throw new IllegalStateException("이미 존재하는 이메일입니다.");
-        }
-    }
-}
-```
+## Testing Guidelines
+- Use JUnit 5 (`org.junit.jupiter.api.Test`).
+- Use `@SpringBootTest` for integration-style coverage.
+- Add focused tests for service business rules and repository query behavior.
+- Keep tests deterministic; avoid reliance on mutable shared state.
 
-### Service Conventions
-- Use `@Service` annotation
-- Use `@Transactional(readOnly = true)` at class level
-- Use `@Transactional` at method level for write operations
-- Use constructor injection (field injection with `@Autowired` is acceptable)
-- Validate business rules with descriptive error messages (Korean)
-
-## Controller Layer
-
-### Controller Pattern
-```java
-@Controller
-@RequiredArgsConstructor
-public class UserController {
-    private final UserService userService;
-
-    @GetMapping("/users/new")
-    public String createForm(Model model) {
-        model.addAttribute("userForm", new UserForm());
-        return "users/createUserForm";
-    }
-
-    @PostMapping("/users/new")
-    public String create(@Valid UserForm form, BindingResult result) {
-        if (result.hasErrors()) {
-            return "users/createUserForm";
-        }
-        User user = User.createUser(form.getNickName(), form.getEmail(), form.getPassword());
-        userService.join(user);
-        return "redirect:/";
-    }
-}
-```
-
-### Controller Conventions
-- Use `@Controller` for Thymeleaf, `@RestController` for APIs
-- Use `@RequiredArgsConstructor` for constructor injection
-- Use `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`
-- Use `@Valid` for form validation
-- Return view names (String) or `@ResponseBody` for JSON
-
-## Repository Layer
-
-### Repository Pattern
-```java
-@Repository
-public class UserRepository {
-    @PersistenceContext
-    private EntityManager em;
-
-    public void save(User user) {
-        em.persist(user);
-    }
-
-    public User findOne(Long id) {
-        return em.find(User.class, id);
-    }
-
-    public List<User> findByEmail(String email) {
-        return em.createQuery("select u from User u where u.email = :email", User.class)
-                .setParameter("email", email)
-                .getResultList();
-    }
-}
-```
-
-### Repository Conventions
-- Use `@Repository` annotation (optional with Spring Data JPA)
-- Use JPQL queries with named parameters (` :paramName`)
-- Return `List<T>` for collections, not arrays
-- Use `findOne()` for single results (may return null)
-
-## Validation
-
-- Use Bean Validation annotations: `@NotNull`, `@NotBlank`, `@Size`, `@Email`
-- Apply `@Valid` on request bodies in controllers
-- Handle `BindingResult` for form validation errors
-
-## Error Handling
-
-- Throw `IllegalStateException` for business rule violations
-- Use descriptive Korean error messages
-- Create custom exceptions in `exception/` package when needed
-- Consider `@ControllerAdvice` for global exception handling
-
-## Testing
-
-```java
-@SpringBootTest
-class UserServiceTests {
-    @Autowired
-    private UserService userService;
-
-    @Test
-    void join_shouldCreateUser() {
-        User user = User.createUser("nick", "test@test.com", "password123");
-        Long id = userService.join(user);
-        assertThat(id).isNotNull();
-    }
-}
-```
-
-### Test Conventions
-- Use JUnit 5 (`org.junit.jupiter.api.Test`)
-- Use `@SpringBootTest` for integration tests
-- Name test methods: `methodName_shouldExpectedBehavior()`
-- Test classes: `ClassNameTests.java`
-
-## Security
-
-- Passwords hashed with `BCryptPasswordEncoder`
-- Use Spring Security for authentication/authorization
-- Never log sensitive data (passwords, tokens)
-
-## Configuration
-
-- Database: MySQL (configured in `application.properties`)
-- JPA schema: auto-generated (`spring.jpa.hibernate.ddl-auto=update`)
-- Enable SQL logging: `spring.jpa.show-sql=true`
-
-## Logging
-
-- Use SLF4J (`Logger`, `LoggerFactory`)
-- Log levels: `INFO` for operations, `ERROR` for failures
-- Avoid logging sensitive data
-
-## Thymeleaf Templates
-
-- Templates in `src/main/resources/templates/`
-- Use `th:text`, `th:each`, `th:if`, `th:href`, `th:field`
-- Access Spring beans via `@beanName` or `T(com.example.ClassName)`
-
-## Development Workflow
-
-1. Run `./gradlew build` before committing
-2. Run tests with `./gradlew test`
-3. Use `./gradlew bootRun` for local development
-4. Verify database schema auto-generation
-
-## Notes
-
-- Application uses Korean in business logic messages
-- Enum values: `STEAM`, `EPIC_GAMES`, `NEW`, `DAMAGED`, `PENDING`, `COMPLETED`
-- Uses JPA inheritance: `@Inheritance(strategy = InheritanceType.SINGLE_TABLE)`
+## Agent Workflow Expectations
+- Make minimal, targeted changes aligned with existing architecture.
+- Preserve package boundaries and naming conventions.
+- Run relevant commands before finalizing:
+  - minimum: `./gradlew test --tests "<target>"` for touched logic
+  - preferred before handoff: `./gradlew test` or `./gradlew build`
+- Do not add new dependencies/plugins without clear need.
+- Document any intentional deviations in PR/commit notes.
