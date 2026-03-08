@@ -1,0 +1,12 @@
+[
+  {"nickName":"alpha","email":"alpha@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"bravo","email":"bravo@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"charlie","email":"charlie@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"delta","email":"delta@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"echo","email":"echo@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"foxtrot","email":"foxtrot@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"golf","email":"golf@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"hotel","email":"hotel@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"india","email":"india@boopoom.com","password":"Pass1234!","role":"USER"},
+  {"nickName":"juliet","email":"juliet@boopoom.com","password":"Pass1234!","role":"USER"}
+]

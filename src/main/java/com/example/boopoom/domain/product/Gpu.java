@@ -18,6 +18,7 @@ public class Gpu extends Product{
     public static Gpu createGpu(
             String modelName,
             String modelNumber,
+            int releaseYear,
             String brand,
             String generation,
             int vramGb,
@@ -28,6 +29,7 @@ public class Gpu extends Product{
 
         gpu.setModelName(modelName);
         gpu.setModelNumber(modelNumber);
+        gpu.setReleaseYear(releaseYear);
         gpu.setBrand(brand);
         gpu.setGeneration(generation);
 

@@ -1,0 +1,7 @@
+[
+  {"code":"RAM-001","modelName":"Vengeance DDR5","modelNumber":"CMK32GX5M2B6000C36","releaseYear":2023,"brand":"CORSAIR","generation":"DDR5","capacityGb":32,"clockSpeedMhz":6000,"casLatency":36},
+  {"code":"RAM-002","modelName":"Trident Z5 Neo","modelNumber":"F5-6000J3038F16GX2-TZ5N","releaseYear":2023,"brand":"G.SKILL","generation":"DDR5","capacityGb":32,"clockSpeedMhz":6000,"casLatency":30},
+  {"code":"RAM-003","modelName":"Kingston Fury Beast","modelNumber":"KF556C40BBK2-32","releaseYear":2022,"brand":"KINGSTON","generation":"DDR5","capacityGb":32,"clockSpeedMhz":5600,"casLatency":40},
+  {"code":"RAM-004","modelName":"Ballistix","modelNumber":"BL2K16G36C16U4B","releaseYear":2021,"brand":"CRUCIAL","generation":"DDR4","capacityGb":32,"clockSpeedMhz":3600,"casLatency":16},
+  {"code":"RAM-005","modelName":"XPG D50","modelNumber":"AX4U320016G16A-DT50","releaseYear":2020,"brand":"ADATA","generation":"DDR4","capacityGb":16,"clockSpeedMhz":3200,"casLatency":16}
+]

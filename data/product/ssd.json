@@ -1,0 +1,7 @@
+[
+  {"code":"SSD-001","modelName":"990 PRO","modelNumber":"MZ-V9P1T0","releaseYear":2022,"brand":"SAMSUNG","generation":"PCIe4","capacityGb":1000},
+  {"code":"SSD-002","modelName":"SN850X","modelNumber":"WDS100T2X0E","releaseYear":2022,"brand":"WD","generation":"PCIe4","capacityGb":1000},
+  {"code":"SSD-003","modelName":"P5 Plus","modelNumber":"CT1000P5PSSD8","releaseYear":2021,"brand":"CRUCIAL","generation":"PCIe4","capacityGb":1000},
+  {"code":"SSD-004","modelName":"980","modelNumber":"MZ-V8V1T0","releaseYear":2021,"brand":"SAMSUNG","generation":"PCIe3","capacityGb":1000},
+  {"code":"SSD-005","modelName":"MX500","modelNumber":"CT1000MX500SSD1","releaseYear":2018,"brand":"CRUCIAL","generation":"SATA","capacityGb":1000}
+]

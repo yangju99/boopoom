@@ -18,6 +18,7 @@ public class Ram extends Product{
     public static Ram createRam(
             String modelName,
             String modelNumber,
+            int releaseYear,
             String brand,
             String generation,
             int capacityGb,
@@ -28,6 +29,7 @@ public class Ram extends Product{
 
         ram.setModelName(modelName);
         ram.setModelNumber(modelNumber);
+        ram.setReleaseYear(releaseYear);
         ram.setBrand(brand);
         ram.setGeneration(generation);
 

@@ -1,0 +1,7 @@
+[
+  {"code":"GPU-001","modelName":"GeForce RTX 4090","modelNumber":"RTX4090","releaseYear":2022,"brand":"NVIDIA","generation":"Ada","vramGb":24,"clockSpeedMhz":2520,"powerRequirementW":450},
+  {"code":"GPU-002","modelName":"GeForce RTX 4080 SUPER","modelNumber":"RTX4080S","releaseYear":2024,"brand":"NVIDIA","generation":"Ada","vramGb":16,"clockSpeedMhz":2550,"powerRequirementW":320},
+  {"code":"GPU-003","modelName":"Radeon RX 7900 XTX","modelNumber":"RX7900XTX","releaseYear":2022,"brand":"AMD","generation":"RDNA3","vramGb":24,"clockSpeedMhz":2500,"powerRequirementW":355},
+  {"code":"GPU-004","modelName":"Radeon RX 7800 XT","modelNumber":"RX7800XT","releaseYear":2023,"brand":"AMD","generation":"RDNA3","vramGb":16,"clockSpeedMhz":2430,"powerRequirementW":263},
+  {"code":"GPU-005","modelName":"Arc A770","modelNumber":"ARCA770","releaseYear":2022,"brand":"INTEL","generation":"Alchemist","vramGb":16,"clockSpeedMhz":2100,"powerRequirementW":225}
+]

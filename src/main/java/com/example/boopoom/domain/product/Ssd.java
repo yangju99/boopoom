@@ -16,6 +16,7 @@ public class Ssd extends Product {
     public static Ssd createSsd(
             String modelName,
             String modelNumber,
+            int releaseYear,
             String brand,
             String generation,
             int capacityGb
@@ -24,6 +25,7 @@ public class Ssd extends Product {
 
         ssd.setModelName(modelName);
         ssd.setModelNumber(modelNumber);
+        ssd.setReleaseYear(releaseYear);
         ssd.setBrand(brand);
         ssd.setGeneration(generation);
 
