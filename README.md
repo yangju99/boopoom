@@ -10,7 +10,14 @@ Example (macOS with Homebrew):
 brew install mysql-client
 ```
 
-### 1-2. Grant execute permission to `init_db.sh` and run it
+### 1-2. Update MySQL password in project files
+
+Before running the DB init script, replace the MySQL password in these files with your own:
+
+- `src/main/resources/application.properties`
+- `init_db.sh`
+
+### 1-3. Grant execute permission to `init_db.sh` and run it
 
 ```bash
 chmod +x init_db.sh
