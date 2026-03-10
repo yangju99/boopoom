@@ -26,14 +26,7 @@ chmod +x init_db.sh
 
 This script creates the `boopoom` database.
 
-## 2. Seed sample JSON data into DB (recommended via script)
-
-Use the script-based approach instead of auto-seeding at every app startup.
-
-Reason:
-- It prevents accidental duplicate inserts during normal development runs.
-- You can explicitly control when seeding happens.
-- It is safer for environments where startup behavior should stay predictable.
+## 2. Seed sample JSON data into DB (via script)
 
 ### 2-1. JSON file locations
 
