@@ -22,3 +22,25 @@ body {
 .product-chip {
     cursor: pointer;
 }
+
+.product-picker {
+    border: 1px solid #dfe6f2;
+    border-radius: 0.75rem;
+    background: #fbfcff;
+    padding: 0.75rem;
+}
+
+.product-group + .product-group {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #cfd8e6;
+}
+
+.product-group-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #495a7a;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}

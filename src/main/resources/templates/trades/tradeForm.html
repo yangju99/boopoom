@@ -10,9 +10,36 @@
             <form th:action="@{/trades/new}" method="post">
                 <div class="mb-3">
                     <label class="form-label">거래 상품 선택</label>
-                    <div class="d-flex flex-wrap gap-2">
-                        <button type="button" class="btn btn-outline-primary product-chip" th:each="p : ${products}"
-                                th:attr="data-product-id=${p.id}" th:text="|${p.modelName} (${p.categoryDisplay})|">상품</button>
+                    <div class="product-picker">
+                        <div class="product-group">
+                            <div class="product-group-title">GPU</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-primary product-chip"
+                                        th:each="p : ${products.?[category == 'G']}"
+                                        th:attr="data-product-id=${p.id}"
+                                        th:text="${p.modelName}">상품</button>
+                            </div>
+                        </div>
+
+                        <div class="product-group">
+                            <div class="product-group-title">RAM</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-primary product-chip"
+                                        th:each="p : ${products.?[category == 'R']}"
+                                        th:attr="data-product-id=${p.id}"
+                                        th:text="${p.modelName}">상품</button>
+                            </div>
+                        </div>
+
+                        <div class="product-group">
+                            <div class="product-group-title">SSD</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-primary product-chip"
+                                        th:each="p : ${products.?[category == 'S']}"
+                                        th:attr="data-product-id=${p.id}"
+                                        th:text="${p.modelName}">상품</button>
+                            </div>
+                        </div>
                     </div>
                     <input id="selectedProductId" type="hidden" name="productId" required>
                     <div class="form-text">상품 버튼을 클릭해 선택하세요.</div>
