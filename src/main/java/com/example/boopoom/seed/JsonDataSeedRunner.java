@@ -15,6 +15,7 @@ import com.example.boopoom.repository.TradeRepository;
 import com.example.boopoom.repository.UserRepository;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.json.JsonMapper;
 import jakarta.persistence.EntityManager;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -24,7 +25,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.annotation.Order;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.PlatformTransactionManager;
+import org.springframework.transaction.support.TransactionTemplate;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -37,17 +39,18 @@ import java.util.Map;
 @Component
 @Order(100)
 @RequiredArgsConstructor
-@Transactional
 @ConditionalOnProperty(name = "boopoom.seed.enabled", havingValue = "true")
 public class JsonDataSeedRunner implements CommandLineRunner {
 
-    private final ObjectMapper objectMapper;
+    // Keep JSON loading self-contained so seeding does not depend on auto-configured web beans.
+    private final ObjectMapper objectMapper = JsonMapper.builder().findAndAddModules().build();
     private final ProductRepository productRepository;
     private final UserRepository userRepository;
     private final TradeRepository tradeRepository;
     private final PasswordEncoder passwordEncoder;
     private final EntityManager em;
     private final ConfigurableApplicationContext context;
+    private final PlatformTransactionManager transactionManager;
 
     @org.springframework.beans.factory.annotation.Value("${boopoom.seed.force:false}")
     private boolean forceSeed;
@@ -57,22 +60,36 @@ public class JsonDataSeedRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        if (!forceSeed && hasAnyData()) {
+        SeedResult result = new TransactionTemplate(transactionManager).execute(status -> {
+            try {
+                if (!forceSeed && hasAnyData()) {
+                    return SeedResult.skippedResult();
+                }
+
+                if (forceSeed) {
+                    clearAllData();
+                }
+
+                Map<String, Product> productMap = seedProducts();
+                Map<String, User> userMap = seedUsers();
+                seedTrades(userMap, productMap);
+
+                return SeedResult.completedResult(count("Product"), count("User"), count("Trade"));
+            } catch (IOException e) {
+                throw new IllegalStateException("Failed to load seed data from JSON.", e);
+            }
+        });
+
+        if (result == null) {
+            throw new IllegalStateException("Seed transaction did not produce a result.");
+        }
+
+        if (result.skipped()) {
             log.info("Seed skipped: data already exists. Use --boopoom.seed.force=true to reseed.");
-            closeIfRequested();
-            return;
+        } else {
+            log.info("Seed completed. products={}, users={}, trades={}",
+                    result.productCount(), result.userCount(), result.tradeCount());
         }
-
-        if (forceSeed) {
-            clearAllData();
-        }
-
-        Map<String, Product> productMap = seedProducts();
-        Map<String, User> userMap = seedUsers();
-        seedTrades(userMap, productMap);
-
-        log.info("Seed completed. products={}, users={}, trades={}",
-                count("Product"), count("User"), count("Trade"));
         closeIfRequested();
     }
 
@@ -233,4 +250,15 @@ public class JsonDataSeedRunner implements CommandLineRunner {
             String tradeDate,
             String status
     ) {}
+
+    private record SeedResult(boolean skipped, long productCount, long userCount, long tradeCount) {
+
+        private static SeedResult skippedResult() {
+            return new SeedResult(true, 0, 0, 0);
+        }
+
+        private static SeedResult completedResult(long productCount, long userCount, long tradeCount) {
+            return new SeedResult(false, productCount, userCount, tradeCount);
+        }
+    }
 }
