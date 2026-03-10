@@ -1,982 +1,2266 @@
 [
-{
-"Brand / Maker": "samsung",
-"Series": "9100 series",
-"Model name": "9100 PRO",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "14,800 / 13,400 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB, 8TB",
-"Notes": "236단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "990 series",
-"Model name": "990 EVO Plus",
-"Launch year": "2024",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,250 / 6,300 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "236단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "990 series",
-"Model name": "990 EVO",
-"Launch year": "2024",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "5,000 / 4,200 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "133단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "990 series",
-"Model name": "990 PRO",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,450 / 6,900 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "176단 / 236단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "980 series",
-"Model name": "SSD 980",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,500 / 3,000 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "128단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "870 series",
-"Model name": "870 EVO",
-"Launch year": "2021",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "560 / 530 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB, 4TB",
-"Notes": "133단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "470 series",
-"Model name": "470",
-"Launch year": "2010",
-"Interface / Form factor": "2.5" SATA 2",
-"NAND / Flash type": "2D MLC",
-"Sequential speed": "250 / 220 MB/s (read/write)",
-"Capacity lineup": "64, 128, 256",
-"Notes": "32nm"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "830 series",
-"Model name": "830",
-"Launch year": "2011",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "2D MLC",
-"Sequential speed": "520 / 400 MB/s (read/write)",
-"Capacity lineup": "64, 128, 256, 512",
-"Notes": "27nm"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "840 series",
-"Model name": "840 BASIC",
-"Launch year": "2012",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "2D TLC",
-"Sequential speed": "530 / 130 MB/s (read/write)",
-"Capacity lineup": "120, 250, 500",
-"Notes": "21nm"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "840 series",
-"Model name": "840 PRO",
-"Launch year": "2012",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "2D MLC",
-"Sequential speed": "530 / 520 MB/s (read/write)",
-"Capacity lineup": "128, 256, 512",
-"Notes": "21nm"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "840 series",
-"Model name": "840 EVO",
-"Launch year": "2012",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "2D TLC",
-"Sequential speed": "540 / 520 MB/s (read/write)",
-"Capacity lineup": "120, 250, 500, 750, 1TB",
-"Notes": "19nm"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "840 series",
-"Model name": "840 EVO Mini",
-"Launch year": "2014",
-"Interface / Form factor": "Mini SATA",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "540 / 520 MB/s (read/write)",
-"Capacity lineup": "120, 250, 500, 1TB",
-"Notes": "16단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "850 series",
-"Model name": "850 PRO",
-"Launch year": "2014",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D MLC",
-"Sequential speed": "550 / 520 MB/s (read/write)",
-"Capacity lineup": "128, 256, 512, 1TB, 2TB",
-"Notes": "32단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "850 series",
-"Model name": "850 EVO",
-"Launch year": "2014",
-"Interface / Form factor": "2.5" SATA 3 / Mini SATA / M.2 (SATA)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "2.5" SATA 3 / Mini SATA: 540 / 520 MB/s; M.2 (SATA): 540 / 500 MB/s (read/write)",
-"Capacity lineup": "2.5" SATA 3: 120, 250, 500, 1TB, 2TB, 4TB / Mini SATA: 250, 500, 1TB, 2TB / M.2 (SATA): 120, 250, 500, 1TB",
-"Notes": "32단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "750 series",
-"Model name": "750",
-"Launch year": "2015",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "2D MLC",
-"Sequential speed": "540 / 520 MB/s (read/write)",
-"Capacity lineup": "120, 250, 500",
-"Notes": "16nm"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "950 series",
-"Model name": "950 PRO",
-"Launch year": "2015",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D MLC",
-"Sequential speed": "2,200 / 1,500 MB/s (read/write)",
-"Capacity lineup": "256, 512",
-"Notes": "32단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "960 series",
-"Model name": "960 PRO",
-"Launch year": "2016",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D MLC",
-"Sequential speed": "3,500 / 2,100 MB/s (read/write)",
-"Capacity lineup": "512, 1TB, 2TB",
-"Notes": "48단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "960 series",
-"Model name": "960 EVO",
-"Launch year": "2016",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,200 / 1,900 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "48단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "860 series",
-"Model name": "860 PRO",
-"Launch year": "2018",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D MLC",
-"Sequential speed": "560 / 530 MB/s (read/write)",
-"Capacity lineup": "256, 512, 1TB, 2TB, 4TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "860 series",
-"Model name": "860 EVO",
-"Launch year": "2018",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "550 / 520 MB/s (read/write)",
-"Capacity lineup": "2.5" SATA 3: 250, 500, 1TB, 2TB, 4TB / M.2 (SATA): 250, 500, 1TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "860 series",
-"Model name": "860 QVO",
-"Launch year": "2018",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "550 / 520 MB/s (read/write)",
-"Capacity lineup": "1, 2, 4TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "970 series",
-"Model name": "970 PRO",
-"Launch year": "2018",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D MLC",
-"Sequential speed": "3,500 / 2,700 MB/s (read/write)",
-"Capacity lineup": "512, 1TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "970 series",
-"Model name": "970 EVO",
-"Launch year": "2018",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,400 / 2,500 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "970 series",
-"Model name": "970 EVO Plus",
-"Launch year": "2019",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,500 / 3,300 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "128단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "870 series",
-"Model name": "870 QVO",
-"Launch year": "2020",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "560 / 530 MB/s (read/write)",
-"Capacity lineup": "1, 2, 4, 8TB",
-"Notes": "92단"
-},
-{
-"Brand / Maker": "samsung",
-"Series": "980 series",
-"Model name": "980 PRO",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,000 / 5,000 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "128단"
-},
-{
-"Brand / Maker": "sk hynix",
-"Series": "Platinum series",
-"Model name": "Platinum P51",
-"Launch year": "2024",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "14,700 / 13,400 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "238단"
-},
-{
-"Brand / Maker": "sk hynix",
-"Series": "Platinum series",
-"Model name": "Platinum P41",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,000 / 6,500 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "176단"
-},
-{
-"Brand / Maker": "sk hynix",
-"Series": "Gold series",
-"Model name": "Gold P31",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,500 / 3,200 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "128단"
-},
-{
-"Brand / Maker": "sk hynix",
-"Series": "Gold series",
-"Model name": "Gold S31",
-"Launch year": "2019",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "560 / 525 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "72단"
-},
-{
-"Brand / Maker": "solidigm",
-"Series": "P series",
-"Model name": "P44 Pro",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,000 / 6,500 MB/s (read/write)",
-"Capacity lineup": "512, 1TB, 2TB",
-"Notes": "176단"
-},
-{
-"Brand / Maker": "solidigm",
-"Series": "P series",
-"Model name": "P41 Plus",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "4,125 / 3,325 MB/s (read/write)",
-"Capacity lineup": "512, 1TB, 2TB",
-"Notes": "144단"
-},
-{
-"Brand / Maker": "solidigm",
-"Model name": "SSD 670p (SOLIDIGM 670p)",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "3,500 / 2,700 MB/s (read/write)",
-"Capacity lineup": "512, 1TB, 2TB",
-"Notes": "144단"
-},
-{
-"Brand / Maker": "solidigm",
-"Model name": "SSD 665p",
-"Launch year": "2019",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "2,000 / 2,000 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "solidigm",
-"Model name": "SSD 760p",
-"Launch year": "2018",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,230 / 1,625 MB/s (read/write)",
-"Capacity lineup": "128, 256, 512",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "solidigm",
-"Model name": "SSD 660p",
-"Launch year": "2018",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "1,800 / 1,800 MB/s (read/write)",
-"Capacity lineup": "512, 1TB, 2TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "solidigm",
-"Model name": "SSD 545s",
-"Launch year": "2017",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "550 / 500 MB/s (read/write)",
-"Capacity lineup": "128, 256, 512, 1TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "western digital",
-"Model name": "SN8100",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "14,900 / 14,000 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "218단"
-},
-{
-"Brand / Maker": "western digital",
-"Model name": "SN7100",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,250 / 6,900 MB/s (read/write)",
-"Capacity lineup": "2TB, 4TB",
-"Notes": "218단"
-},
-{
-"Brand / Maker": "western digital",
-"Model name": "SN5100",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "7,100 / 6,700 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB, 4TB",
-"Notes": "218단"
-},
-{
-"Brand / Maker": "western digital",
-"Model name": "SN5000S",
-"Launch year": "2024",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "6,000 / 5,600 MB/s (read/write)",
-"Capacity lineup": "512, 1TB, 2TB",
-"Notes": "162단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue SN580",
-"Launch year": "2023",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "4,150 / 4,150 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK SN850X",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,300 / 6,600 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB, 8TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK SN770",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "5,150 / 4,900 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK SN740",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "5,150 / 4,850 MB/s (read/write)",
-"Capacity lineup": "256, 512, 1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK SN750 SE",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,600 / 2,830 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "RED series",
-"Model name": "RED SN700",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,430 / 3,100 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB, 4TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue SN570",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,500 / 3,500 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue SN530",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "2,400 / 1,950 MB/s (read/write)",
-"Capacity lineup": "256, 512, 1TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Green series",
-"Model name": "Green SN350",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "3,200 / 3,000 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Green series",
-"Model name": "Green SN350",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "2,400 / 1,900 MB/s (read/write)",
-"Capacity lineup": "240, 480, 960",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK SN850",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,000 / 5,300 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue SN550",
-"Launch year": "2019",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "2,400 / 1,950 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK SN750",
-"Launch year": "2019",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,470 / 3,000 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB, 4TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue SN500",
-"Launch year": "2019",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "1,700 / 1,450 MB/s (read/write)",
-"Capacity lineup": "250, 500",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK 3D",
-"Launch year": "2018",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,400 / 2,800 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "BLACK series",
-"Model name": "BLACK PCIe",
-"Launch year": "2017",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "2,050 / 800 MB/s (read/write)",
-"Capacity lineup": "256, 512",
-"Notes": "15nm"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue SA510",
-"Launch year": "2022",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "560 / 520 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Green series",
-"Model name": "Green (3세대)",
-"Launch year": "2022",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "545 MB/s (read)",
-"Capacity lineup": "120, 240, 480, 1TB, 2TB",
-"Notes": "불명"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue 3D",
-"Launch year": "2017",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "560 / 530 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB, 4TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Green series",
-"Model name": "Green (2세대)",
-"Launch year": "2017",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "545 MB/s (read)",
-"Capacity lineup": "120, 240, 480, 1TB, 2TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Blue series",
-"Model name": "Blue",
-"Launch year": "2016",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "2D TLC",
-"Sequential speed": "545 / 525 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "15nm"
-},
-{
-"Brand / Maker": "western digital",
-"Series": "Green series",
-"Model name": "Green",
-"Launch year": "2016",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "2D TLC",
-"Sequential speed": "540 / 465 MB/s (read/write)",
-"Capacity lineup": "120, 240",
-"Notes": "15nm"
-},
-{
-"Brand / Maker": "micron",
-"Series": "T series",
-"Model name": "T710",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (Nvme)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "14,900 / 13,700 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "276단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "T series",
-"Model name": "T705",
-"Launch year": "2024",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "14,100 / 12,600 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "232단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "T series",
-"Model name": "T700 Pro",
-"Launch year": "2023",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "12,400 / 11,800 MB/s (read/write)",
-"Capacity lineup": "4TB",
-"Notes": "232단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "T series",
-"Model name": "T700",
-"Launch year": "2023",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "12,000 / 11,000 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "232단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "T series",
-"Model name": "T500",
-"Launch year": "2023",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,400 / 7,000 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "232단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "P series",
-"Model name": "P3 Plus",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "5,000 / 4,200 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB, 4TB",
-"Notes": "176단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "P series",
-"Model name": "P3",
-"Launch year": "2022",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "3,500 / 3,000 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB, 4TB",
-"Notes": "176단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "P series",
-"Model name": "P5 Plus",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "6,600 / 5,000 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "176단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "P series",
-"Model name": "P5",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,400 / 3,000 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "P series",
-"Model name": "P2",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC, QLC",
-"Sequential speed": "2,400 / 1,900 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "P series",
-"Model name": "P1",
-"Launch year": "2018",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "2,000 / 1,700 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "BX series",
-"Model name": "BX500",
-"Launch year": "2018",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D TLC, QLC",
-"Sequential speed": "560 / 510 MB/s (read/write)",
-"Capacity lineup": "240, 480, 500, 1TB, 2TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "MX series",
-"Model name": "MX500",
-"Launch year": "2018",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "550 / 500 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB, 2TB, 4TB",
-"Notes": "64단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "MX series",
-"Model name": "MX300",
-"Launch year": "2016",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "530 / 510 MB/s (read/write)",
-"Capacity lineup": "275, 525, 750, 1TB, 2TB",
-"Notes": "32단"
-},
-{
-"Brand / Maker": "micron",
-"Series": "MX series",
-"Model name": "MX200",
-"Launch year": "2015",
-"Interface / Form factor": "2.5" SATA 3 / M.2 (SATA 3)",
-"NAND / Flash type": "MLC",
-"Sequential speed": "550 / 500 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "16nm"
-},
-{
-"Brand / Maker": "micron",
-"Series": "MX series",
-"Model name": "MX100",
-"Launch year": "2014",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "MLC",
-"Sequential speed": "550 / 500 MB/s (read/write)",
-"Capacity lineup": "128, 256, 512",
-"Notes": "16nm"
-},
-{
-"Brand / Maker": "micron",
-"Model name": "M4",
-"Launch year": "2011",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "MLC",
-"Sequential speed": "550 / 260 MB/s (read/write)",
-"Capacity lineup": "64, 128, 256, 512",
-"Notes": "25nm"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA PLUS G4",
-"Launch year": "2024",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "10,000 / 8,200 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "218단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA BASIC",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D QLC",
-"Sequential speed": "7,300 / 6,800 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "218단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA 히트싱크",
-"Launch year": "2025",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "6,200 / 4,900 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB, 4TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA PLUS G3",
-"Launch year": "2023",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "5,000 / 3,900 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA PRO",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "7,300 / 6,400 MB/s (read/write)",
-"Capacity lineup": "1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA G2",
-"Launch year": "2021",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "2,100 / 1,700 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "112단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA PLUS G2",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,400 / 3,200 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA PLUS",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "3,400 / 2,500 MB/s; 3,400 / 3,200 MB/s (read/write)",
-"Capacity lineup": "500, 1TB, 2TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA (NVMe)",
-"Launch year": "2020",
-"Interface / Form factor": "M.2 (NVMe)",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "1,700 / 1,200 MB/s; 1,700 / 1,600 MB/s (read/write)",
-"Capacity lineup": "250, 500, 1TB",
-"Notes": "96단"
-},
-{
-"Brand / Maker": "kioxia",
-"Series": "EXCERIA series",
-"Model name": "EXCERIA (SATA)",
-"Launch year": "2020",
-"Interface / Form factor": "2.5" SATA 3",
-"NAND / Flash type": "3D TLC",
-"Sequential speed": "555 / 540 MB/s (read/write)",
-"Capacity lineup": "240, 480, 960",
-"Notes": "96단"
-}
+    {
+        "Brand / Maker": "samsung",
+        "Series": "9100 series",
+        "Model name": "9100 PRO",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                14800
+            ],
+            [
+                13400
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096,
+                8192
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "990 series",
+        "Model name": "990 EVO Plus",
+        "Launch year": "2024",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7250
+            ],
+            [
+                6300
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "990 series",
+        "Model name": "990 EVO",
+        "Launch year": "2024",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                5000
+            ],
+            [
+                4200
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "990 series",
+        "Model name": "990 PRO",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7450
+            ],
+            [
+                6900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "980 series",
+        "Model name": "SSD 980",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                3000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "870 series",
+        "Model name": "870 EVO",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                530
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "470 series",
+        "Model name": "470",
+        "Launch year": "2010",
+        "Interface / Form factor": [
+            "2.5 SATA 2"
+        ],
+        "Sequential speed": [
+            [
+                250
+            ],
+            [
+                220
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                64,
+                128,
+                256
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "830 series",
+        "Model name": "830",
+        "Launch year": "2011",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                520
+            ],
+            [
+                400
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                64,
+                128,
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "840 series",
+        "Model name": "840 BASIC",
+        "Launch year": "2012",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                530
+            ],
+            [
+                130
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                250,
+                500
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "840 series",
+        "Model name": "840 PRO",
+        "Launch year": "2012",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                530
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                128,
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "840 series",
+        "Model name": "840 EVO",
+        "Launch year": "2012",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                540
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                250,
+                500,
+                750,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "840 series",
+        "Model name": "840 EVO Mini",
+        "Launch year": "2014",
+        "Interface / Form factor": [
+            "Mini SATA"
+        ],
+        "Sequential speed": [
+            [
+                540
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "850 series",
+        "Model name": "850 PRO",
+        "Launch year": "2014",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                128,
+                256,
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "850 series",
+        "Model name": "850 EVO",
+        "Launch year": "2014",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "Mini SATA",
+            "M.2 (SATA)"
+        ],
+        "Sequential speed": [
+            [
+                540,
+                540
+            ],
+            [
+                520,
+                500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ],
+            [
+                250,
+                500,
+                1024,
+                2048
+            ],
+            [
+                120,
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "750 series",
+        "Model name": "750",
+        "Launch year": "2015",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                540
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                250,
+                500
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "950 series",
+        "Model name": "950 PRO",
+        "Launch year": "2015",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2200
+            ],
+            [
+                1500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "960 series",
+        "Model name": "960 PRO",
+        "Launch year": "2016",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                2100
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "960 series",
+        "Model name": "960 EVO",
+        "Launch year": "2016",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3200
+            ],
+            [
+                1900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "860 series",
+        "Model name": "860 PRO",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                530
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                256,
+                512,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "860 series",
+        "Model name": "860 EVO",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA)"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ],
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "860 series",
+        "Model name": "860 QVO",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1,
+                2,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "970 series",
+        "Model name": "970 PRO",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                2700
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "970 series",
+        "Model name": "970 EVO",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3400
+            ],
+            [
+                2500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "970 series",
+        "Model name": "970 EVO Plus",
+        "Launch year": "2019",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                3300
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "870 series",
+        "Model name": "870 QVO",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                530
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1,
+                2,
+                4,
+                8192
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "samsung",
+        "Series": "980 series",
+        "Model name": "980 PRO",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7000
+            ],
+            [
+                5000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "sk hynix",
+        "Series": "Platinum series",
+        "Model name": "Platinum P51",
+        "Launch year": "2024",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                14700
+            ],
+            [
+                13400
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "sk hynix",
+        "Series": "Platinum series",
+        "Model name": "Platinum P41",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7000
+            ],
+            [
+                6500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "sk hynix",
+        "Series": "Gold series",
+        "Model name": "Gold P31",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                3200
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "sk hynix",
+        "Series": "Gold series",
+        "Model name": "Gold S31",
+        "Launch year": "2019",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                525
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Series": "P series",
+        "Model name": "P44 Pro",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7000
+            ],
+            [
+                6500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Series": "P series",
+        "Model name": "P41 Plus",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                4125
+            ],
+            [
+                3325
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Model name": "SSD 670p (SOLIDIGM 670p)",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                2700
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Model name": "SSD 665p",
+        "Launch year": "2019",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2000
+            ],
+            [
+                2000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Model name": "SSD 760p",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3230
+            ],
+            [
+                1625
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                128,
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Model name": "SSD 660p",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                1800
+            ],
+            [
+                1800
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "solidigm",
+        "Model name": "SSD 545s",
+        "Launch year": "2017",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                128,
+                256,
+                512,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Model name": "SN8100",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                14900
+            ],
+            [
+                14000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Model name": "SN7100",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7250
+            ],
+            [
+                6900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Model name": "SN5100",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7100
+            ],
+            [
+                6700
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Model name": "SN5000S",
+        "Launch year": "2024",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                6000
+            ],
+            [
+                5600
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue SN580",
+        "Launch year": "2023",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                4150
+            ],
+            [
+                4150
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK SN850X",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7300
+            ],
+            [
+                6600
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096,
+                8192
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK SN770",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                5150
+            ],
+            [
+                4900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK SN740",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                5150
+            ],
+            [
+                4850
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                256,
+                512,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK SN750 SE",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3600
+            ],
+            [
+                2830
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "RED series",
+        "Model name": "RED SN700",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3430
+            ],
+            [
+                3100
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue SN570",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                3500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue SN530",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2400
+            ],
+            [
+                1950
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                256,
+                512,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Green series",
+        "Model name": "Green SN350",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3200
+            ],
+            [
+                3000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Green series",
+        "Model name": "Green SN350",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2400
+            ],
+            [
+                1900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                240,
+                480,
+                960
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK SN850",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7000
+            ],
+            [
+                5300
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue SN550",
+        "Launch year": "2019",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2400
+            ],
+            [
+                1950
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK SN750",
+        "Launch year": "2019",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3470
+            ],
+            [
+                3000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue SN500",
+        "Launch year": "2019",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                1700
+            ],
+            [
+                1450
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK 3D",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3400
+            ],
+            [
+                2800
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "BLACK series",
+        "Model name": "BLACK PCIe",
+        "Launch year": "2017",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2050
+            ],
+            [
+                800
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue SA510",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                520
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ],
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Green series",
+        "Model name": "Green (3세대)",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [],
+            []
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                240,
+                480,
+                1024,
+                2048
+            ],
+            [
+                120,
+                240,
+                480,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue 3D",
+        "Launch year": "2017",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                530
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ],
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Green series",
+        "Model name": "Green (2세대)",
+        "Launch year": "2017",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [545],
+            [545]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                240,
+                480,
+                1024,
+                2048
+            ],
+            [
+                120,
+                240,
+                480,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Blue series",
+        "Model name": "Blue",
+        "Launch year": "2016",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                545
+            ],
+            [
+                525
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ],
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "western digital",
+        "Series": "Green series",
+        "Model name": "Green",
+        "Launch year": "2016",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                540
+            ],
+            [
+                465
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                120,
+                240
+            ],
+            [
+                120,
+                240
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "T series",
+        "Model name": "T710",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (Nvme)"
+        ],
+        "Sequential speed": [
+            [
+                14900
+            ],
+            [
+                13700
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "T series",
+        "Model name": "T705",
+        "Launch year": "2024",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                14100
+            ],
+            [
+                12600
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "T series",
+        "Model name": "T700 Pro",
+        "Launch year": "2023",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                12400
+            ],
+            [
+                11800
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "T series",
+        "Model name": "T700",
+        "Launch year": "2023",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                12000
+            ],
+            [
+                11000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "T series",
+        "Model name": "T500",
+        "Launch year": "2023",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7400
+            ],
+            [
+                7000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "P series",
+        "Model name": "P3 Plus",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                5000
+            ],
+            [
+                4200
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "P series",
+        "Model name": "P3",
+        "Launch year": "2022",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3500
+            ],
+            [
+                3000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "P series",
+        "Model name": "P5 Plus",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                6600
+            ],
+            [
+                5000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "P series",
+        "Model name": "P5",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3400
+            ],
+            [
+                3000
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "P series",
+        "Model name": "P2",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2400
+            ],
+            [
+                1900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "P series",
+        "Model name": "P1",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2000
+            ],
+            [
+                1700
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "BX series",
+        "Model name": "BX500",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                560
+            ],
+            [
+                510
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                240,
+                480,
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "MX series",
+        "Model name": "MX500",
+        "Launch year": "2018",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ],
+            [
+                250,
+                500,
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "MX series",
+        "Model name": "MX300",
+        "Launch year": "2016",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                530
+            ],
+            [
+                510
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                275,
+                525,
+                750,
+                1024,
+                2048
+            ],
+            [
+                275,
+                525,
+                750,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "MX series",
+        "Model name": "MX200",
+        "Launch year": "2015",
+        "Interface / Form factor": [
+            "2.5 SATA 3",
+            "M.2 (SATA 3)"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ],
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Series": "MX series",
+        "Model name": "MX100",
+        "Launch year": "2014",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                500
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                128,
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "micron",
+        "Model name": "M4",
+        "Launch year": "2011",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                550
+            ],
+            [
+                260
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                64,
+                128,
+                256,
+                512
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA PLUS G4",
+        "Launch year": "2024",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                10000
+            ],
+            [
+                8200
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA BASIC",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7300
+            ],
+            [
+                6800
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA 히트싱크",
+        "Launch year": "2025",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                6200
+            ],
+            [
+                4900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048,
+                4096
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA PLUS G3",
+        "Launch year": "2023",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                5000
+            ],
+            [
+                3900
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA PRO",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                7300
+            ],
+            [
+                6400
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA G2",
+        "Launch year": "2021",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                2100
+            ],
+            [
+                1700
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA PLUS G2",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3400
+            ],
+            [
+                3200
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA PLUS",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                3400,
+                3400
+            ],
+            [
+                2500,
+                3200
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                500,
+                1024,
+                2048
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA (NVMe)",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "M.2 (NVMe)"
+        ],
+        "Sequential speed": [
+            [
+                1700,
+                1700
+            ],
+            [
+                1200,
+                1600
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                250,
+                500,
+                1024
+            ]
+        ]
+    },
+    {
+        "Brand / Maker": "kioxia",
+        "Series": "EXCERIA series",
+        "Model name": "EXCERIA (SATA)",
+        "Launch year": "2020",
+        "Interface / Form factor": [
+            "2.5 SATA 3"
+        ],
+        "Sequential speed": [
+            [
+                555
+            ],
+            [
+                540
+            ]
+        ],
+        "Capacity lineup": [
+            [
+                240,
+                480,
+                960
+            ]
+        ]
+    }
 ]
