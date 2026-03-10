@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: header('거래 산점도')}"></head>
+<body>
+<div th:replace="~{fragments/bodyHeader :: bodyHeader}"></div>
+<main class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="h4 mb-0">거래 산점도</h1>
+        <div class="d-flex gap-2">
+            <a class="btn btn-outline-secondary btn-sm" th:href="${conditionUrl}">조건 다시 선택</a>
+            <form method="post" th:action="${listAction}" th:object="${tradeSearch}">
+                <input type="hidden" th:field="*{startDate}">
+                <input type="hidden" th:field="*{category}">
+                <button class="btn btn-outline-primary btn-sm" type="submit">같은 조건 목록 보기</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card shadow-sm mb-3">
+        <div class="card-body">
+            <p class="text-muted small mb-3">
+                각 점은 하나의 거래를 의미합니다. 점을 클릭하면 하단에서 상세 정보를 확인할 수 있습니다.
+            </p>
+            <div class="alert alert-light border mb-0" th:if="${#lists.isEmpty(scatterPoints)}">
+                조회 조건에 맞는 거래가 없습니다.
+            </div>
+            <div class="scatter-chart-wrap" th:unless="${#lists.isEmpty(scatterPoints)}">
+                <canvas id="tradeScatterChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h2 class="h5 mb-3">거래 상세</h2>
+            <div id="tradeDetailEmpty" class="text-muted small">산점도에서 점을 클릭하면 상세 정보가 표시됩니다.</div>
+            <div id="tradeDetailContent" class="d-none">
+                <dl class="row mb-3 small">
+                    <dt class="col-sm-3">거래 ID</dt><dd class="col-sm-9" id="detailId">-</dd>
+                    <dt class="col-sm-3">상품</dt><dd class="col-sm-9" id="detailProduct">-</dd>
+                    <dt class="col-sm-3">카테고리</dt><dd class="col-sm-9" id="detailCategory">-</dd>
+                    <dt class="col-sm-3">가격</dt><dd class="col-sm-9" id="detailPrice">-</dd>
+                    <dt class="col-sm-3">거래 날짜</dt><dd class="col-sm-9" id="detailDate">-</dd>
+                    <dt class="col-sm-3">플랫폼</dt><dd class="col-sm-9" id="detailPlatform">-</dd>
+                    <dt class="col-sm-3">파손 여부</dt><dd class="col-sm-9" id="detailDamage">-</dd>
+                    <dt class="col-sm-3">상태</dt><dd class="col-sm-9" id="detailStatus">-</dd>
+                    <dt class="col-sm-3">지역</dt><dd class="col-sm-9" id="detailLocation">-</dd>
+                </dl>
+                <div id="tradeDetailImages" class="trade-detail-images"></div>
+            </div>
+        </div>
+    </div>
+</main>
+<div th:replace="~{fragments/footer :: footer}"></div>
+<th:block th:replace="~{fragments/footer :: scripts}"></th:block>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<script th:inline="javascript">
+    (function () {
+        const points = /*[[${scatterPoints}]]*/ [];
+        const canvas = document.getElementById('tradeScatterChart');
+        if (!canvas || !points.length) {
+            return;
+        }
+
+        const detailEmpty = document.getElementById('tradeDetailEmpty');
+        const detailContent = document.getElementById('tradeDetailContent');
+        const detailImages = document.getElementById('tradeDetailImages');
+
+        function formatDate(millis) {
+            const date = new Date(Number(millis));
+            if (Number.isNaN(date.getTime())) {
+                return '';
+            }
+            const y = date.getFullYear();
+            const m = String(date.getMonth() + 1).padStart(2, '0');
+            const d = String(date.getDate()).padStart(2, '0');
+            return y + '-' + m + '-' + d;
+        }
+
+        function setText(id, text) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.textContent = text;
+            }
+        }
+
+        function renderImages(urls) {
+            detailImages.innerHTML = '';
+            if (!urls || !urls.length) {
+                const empty = document.createElement('div');
+                empty.className = 'text-muted small';
+                empty.textContent = '등록된 사진이 없습니다.';
+                detailImages.appendChild(empty);
+                return;
+            }
+
+            urls.forEach(function (url) {
+                const img = document.createElement('img');
+                img.className = 'trade-detail-image';
+                img.src = url;
+                img.alt = 'trade image';
+                img.width = 96;
+                img.height = 72;
+                img.loading = 'lazy';
+                img.style.width = '96px';
+                img.style.height = '72px';
+                img.style.maxWidth = '96px';
+                img.style.maxHeight = '72px';
+                img.style.objectFit = 'contain';
+                detailImages.appendChild(img);
+            });
+        }
+
+        function renderDetail(trade) {
+            detailEmpty.classList.add('d-none');
+            detailContent.classList.remove('d-none');
+            setText('detailId', String(trade.id));
+            setText('detailProduct', trade.productName);
+            setText('detailCategory', trade.category);
+            setText('detailPrice', String(trade.price));
+            setText('detailDate', trade.tradeDate);
+            setText('detailPlatform', trade.platform);
+            setText('detailDamage', trade.damageStatus);
+            setText('detailStatus', trade.status);
+            setText('detailLocation', trade.location);
+            renderImages(trade.imageUrls);
+        }
+
+        const dataset = points.map(function (p) {
+            return {
+                x: p.tradeDateMs,
+                y: p.price,
+                trade: p
+            };
+        });
+
+        const chart = new Chart(canvas, {
+            type: 'scatter',
+            data: {
+                datasets: [{
+                    label: 'Trades',
+                    data: dataset,
+                    pointRadius: 5,
+                    pointHoverRadius: 7,
+                    pointBackgroundColor: '#1d4ed8',
+                    pointBorderColor: '#ffffff',
+                    pointBorderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        type: 'linear',
+                        title: {
+                            display: true,
+                            text: '거래 날짜 (오른쪽일수록 최신)'
+                        },
+                        ticks: {
+                            callback: function (value) {
+                                return formatDate(value);
+                            }
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: '가격'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {display: false},
+                    tooltip: {
+                        callbacks: {
+                            title: function (items) {
+                                return formatDate(items[0].parsed.x);
+                            },
+                            label: function (context) {
+                                const trade = context.raw.trade;
+                                return trade.productName + ' / ' + trade.price + ' / ' + trade.platform;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        canvas.addEventListener('click', function (event) {
+            const hit = chart.getElementsAtEventForMode(event, 'nearest', {intersect: true}, true);
+            if (!hit.length) {
+                return;
+            }
+            const trade = dataset[hit[0].index].trade;
+            renderDetail(trade);
+        });
+    })();
+</script>
+</body>
+</html>

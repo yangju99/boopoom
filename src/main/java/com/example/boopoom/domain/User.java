@@ -14,7 +14,7 @@ import java.util.List;
 @Setter
 public class User {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "user_id")
     private Long id;
 
@@ -47,6 +47,10 @@ public class User {
 
     public void getPoints(){
         this.points += User.POINT_AMOUNT;
+    }
+
+    public int getCurrentPoints() {
+        return this.points;
     }
 
     public void usePoints(){

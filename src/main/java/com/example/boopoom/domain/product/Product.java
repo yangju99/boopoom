@@ -15,7 +15,7 @@ import java.util.List;
 @Setter
 public abstract class Product {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="item_id")
     private Long id;
 
