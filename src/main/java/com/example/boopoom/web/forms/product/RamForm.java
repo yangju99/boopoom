@@ -8,8 +8,6 @@ import lombok.Setter;
 @Setter
 public class RamForm extends ProductForm {
     private int capacityGb;
-    private int clockSpeedMhz;
-    private int casLatency;
 
     public static RamForm fromEntity(Ram ram) {
         RamForm form = new RamForm();
@@ -19,8 +17,6 @@ public class RamForm extends ProductForm {
         form.setBrand(ram.getBrand());
         form.setGeneration(ram.getGeneration());
         form.setCapacityGb(ram.getCapacityGb());
-        form.setClockSpeedMhz(ram.getClockSpeedMhz());
-        form.setCasLatency(ram.getCasLatency());
         return form;
     }
 }

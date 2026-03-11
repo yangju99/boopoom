@@ -12,7 +12,6 @@ import lombok.Setter;
 @Setter
 public class Gpu extends Product{
     private int vramGb;
-    private int clockSpeedMhz;
     private int powerRequirementW;
 
     public static Gpu createGpu(
@@ -22,7 +21,6 @@ public class Gpu extends Product{
             String brand,
             String generation,
             int vramGb,
-            int clockSpeedMhz,
             int powerRequirementW
     ) {
         Gpu gpu = new Gpu();
@@ -34,7 +32,6 @@ public class Gpu extends Product{
         gpu.setGeneration(generation);
 
         gpu.setVramGb(vramGb);
-        gpu.setClockSpeedMhz(clockSpeedMhz);
         gpu.setPowerRequirementW(powerRequirementW);
 
         return gpu;
@@ -48,7 +45,6 @@ public class Gpu extends Product{
         gpu.setGeneration(gpuForm.getGeneration());
 
         gpu.setVramGb(gpuForm.getVramGb());
-        gpu.setClockSpeedMhz(gpuForm.getClockSpeedMhz());
         gpu.setPowerRequirementW(gpuForm.getPowerRequirementW());
 
         return gpu;

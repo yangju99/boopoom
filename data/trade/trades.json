@@ -1,7 +1,7 @@
 [
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 217,
     "location": "Seoul",
     "platform": "Karrot",
@@ -14,7 +14,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 234,
     "location": "Busan",
     "platform": "Junggonara",
@@ -27,7 +27,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 251,
     "location": "Incheon",
     "platform": "Bunjang",
@@ -40,7 +40,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 268,
     "location": "Daegu",
     "platform": "Karrot",
@@ -53,7 +53,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 285,
     "location": "Daejeon",
     "platform": "Junggonara",
@@ -66,7 +66,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 302,
     "location": "Suwon",
     "platform": "Bunjang",
@@ -79,7 +79,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 319,
     "location": "Ulsan",
     "platform": "Karrot",
@@ -94,7 +94,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 336,
     "location": "Gwangju",
     "platform": "Junggonara",
@@ -107,7 +107,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 353,
     "location": "Seongnam",
     "platform": "Bunjang",
@@ -120,7 +120,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 370,
     "location": "Yongin",
     "platform": "Karrot",
@@ -133,7 +133,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "RAM-001",
+    "productCode": "RAM-0001",
     "price": 387,
     "location": "Seoul",
     "platform": "Junggonara",
@@ -146,7 +146,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "RAM-002",
+    "productCode": "RAM-0002",
     "price": 404,
     "location": "Busan",
     "platform": "Bunjang",
@@ -159,7 +159,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "RAM-003",
+    "productCode": "RAM-0003",
     "price": 421,
     "location": "Incheon",
     "platform": "Karrot",
@@ -172,7 +172,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "RAM-004",
+    "productCode": "RAM-0004",
     "price": 438,
     "location": "Daegu",
     "platform": "Junggonara",
@@ -185,7 +185,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "RAM-005",
+    "productCode": "RAM-0005",
     "price": 455,
     "location": "Daejeon",
     "platform": "Bunjang",
@@ -198,7 +198,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 472,
     "location": "Suwon",
     "platform": "Karrot",
@@ -211,7 +211,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 489,
     "location": "Ulsan",
     "platform": "Junggonara",
@@ -224,7 +224,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 506,
     "location": "Gwangju",
     "platform": "Bunjang",
@@ -238,7 +238,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 523,
     "location": "Seongnam",
     "platform": "Karrot",
@@ -251,7 +251,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 540,
     "location": "Yongin",
     "platform": "Junggonara",
@@ -264,7 +264,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 557,
     "location": "Seoul",
     "platform": "Bunjang",
@@ -277,7 +277,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 574,
     "location": "Busan",
     "platform": "Karrot",
@@ -290,7 +290,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 591,
     "location": "Incheon",
     "platform": "Junggonara",
@@ -303,7 +303,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 608,
     "location": "Daegu",
     "platform": "Bunjang",
@@ -316,7 +316,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 625,
     "location": "Daejeon",
     "platform": "Karrot",
@@ -329,7 +329,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "RAM-001",
+    "productCode": "RAM-0001",
     "price": 642,
     "location": "Suwon",
     "platform": "Junggonara",
@@ -342,7 +342,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "RAM-002",
+    "productCode": "RAM-0002",
     "price": 659,
     "location": "Ulsan",
     "platform": "Bunjang",
@@ -355,7 +355,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "RAM-003",
+    "productCode": "RAM-0003",
     "price": 676,
     "location": "Gwangju",
     "platform": "Karrot",
@@ -368,7 +368,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "RAM-004",
+    "productCode": "RAM-0004",
     "price": 693,
     "location": "Seongnam",
     "platform": "Junggonara",
@@ -382,7 +382,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "RAM-005",
+    "productCode": "RAM-0005",
     "price": 710,
     "location": "Yongin",
     "platform": "Bunjang",
@@ -395,7 +395,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 727,
     "location": "Seoul",
     "platform": "Karrot",
@@ -408,7 +408,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 744,
     "location": "Busan",
     "platform": "Junggonara",
@@ -421,7 +421,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 761,
     "location": "Incheon",
     "platform": "Bunjang",
@@ -434,7 +434,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 778,
     "location": "Daegu",
     "platform": "Karrot",
@@ -447,7 +447,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 795,
     "location": "Daejeon",
     "platform": "Junggonara",
@@ -460,7 +460,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 812,
     "location": "Suwon",
     "platform": "Bunjang",
@@ -475,7 +475,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 829,
     "location": "Ulsan",
     "platform": "Karrot",
@@ -488,7 +488,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 846,
     "location": "Gwangju",
     "platform": "Junggonara",
@@ -501,7 +501,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 863,
     "location": "Seongnam",
     "platform": "Bunjang",
@@ -514,7 +514,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 880,
     "location": "Yongin",
     "platform": "Karrot",
@@ -528,7 +528,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "RAM-001",
+    "productCode": "RAM-0001",
     "price": 897,
     "location": "Seoul",
     "platform": "Junggonara",
@@ -541,7 +541,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "RAM-002",
+    "productCode": "RAM-0002",
     "price": 914,
     "location": "Busan",
     "platform": "Bunjang",
@@ -554,7 +554,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "RAM-003",
+    "productCode": "RAM-0003",
     "price": 931,
     "location": "Incheon",
     "platform": "Karrot",
@@ -567,7 +567,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "RAM-004",
+    "productCode": "RAM-0004",
     "price": 948,
     "location": "Daegu",
     "platform": "Junggonara",
@@ -580,7 +580,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "RAM-005",
+    "productCode": "RAM-0005",
     "price": 965,
     "location": "Daejeon",
     "platform": "Bunjang",
@@ -593,7 +593,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 982,
     "location": "Suwon",
     "platform": "Karrot",
@@ -606,7 +606,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 999,
     "location": "Ulsan",
     "platform": "Junggonara",
@@ -619,7 +619,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 1016,
     "location": "Gwangju",
     "platform": "Bunjang",
@@ -632,7 +632,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 1033,
     "location": "Seongnam",
     "platform": "Karrot",
@@ -645,7 +645,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 1050,
     "location": "Yongin",
     "platform": "Junggonara",
@@ -658,7 +658,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 1067,
     "location": "Seoul",
     "platform": "Bunjang",
@@ -672,7 +672,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 1084,
     "location": "Busan",
     "platform": "Karrot",
@@ -685,7 +685,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 1101,
     "location": "Incheon",
     "platform": "Junggonara",
@@ -698,7 +698,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 1118,
     "location": "Daegu",
     "platform": "Bunjang",
@@ -711,7 +711,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 1135,
     "location": "Daejeon",
     "platform": "Karrot",
@@ -724,7 +724,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "RAM-001",
+    "productCode": "RAM-0001",
     "price": 1152,
     "location": "Suwon",
     "platform": "Junggonara",
@@ -737,7 +737,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "RAM-002",
+    "productCode": "RAM-0002",
     "price": 1169,
     "location": "Ulsan",
     "platform": "Bunjang",
@@ -750,7 +750,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "RAM-003",
+    "productCode": "RAM-0003",
     "price": 1186,
     "location": "Gwangju",
     "platform": "Karrot",
@@ -763,7 +763,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "RAM-004",
+    "productCode": "RAM-0004",
     "price": 1203,
     "location": "Seongnam",
     "platform": "Junggonara",
@@ -776,7 +776,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "RAM-005",
+    "productCode": "RAM-0005",
     "price": 1220,
     "location": "Yongin",
     "platform": "Bunjang",
@@ -789,7 +789,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 1237,
     "location": "Seoul",
     "platform": "Karrot",
@@ -802,7 +802,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 1254,
     "location": "Busan",
     "platform": "Junggonara",
@@ -816,7 +816,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 1271,
     "location": "Incheon",
     "platform": "Bunjang",
@@ -829,7 +829,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 1288,
     "location": "Daegu",
     "platform": "Karrot",
@@ -842,7 +842,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 1305,
     "location": "Daejeon",
     "platform": "Junggonara",
@@ -857,7 +857,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 1322,
     "location": "Suwon",
     "platform": "Bunjang",
@@ -870,7 +870,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 1339,
     "location": "Ulsan",
     "platform": "Karrot",
@@ -883,7 +883,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 1356,
     "location": "Gwangju",
     "platform": "Junggonara",
@@ -896,7 +896,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 1373,
     "location": "Seongnam",
     "platform": "Bunjang",
@@ -909,7 +909,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 1390,
     "location": "Yongin",
     "platform": "Karrot",
@@ -922,7 +922,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "RAM-001",
+    "productCode": "RAM-0001",
     "price": 1407,
     "location": "Seoul",
     "platform": "Junggonara",
@@ -935,7 +935,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "RAM-002",
+    "productCode": "RAM-0002",
     "price": 1424,
     "location": "Busan",
     "platform": "Bunjang",
@@ -948,7 +948,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "RAM-003",
+    "productCode": "RAM-0003",
     "price": 1441,
     "location": "Incheon",
     "platform": "Karrot",
@@ -962,7 +962,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "RAM-004",
+    "productCode": "RAM-0004",
     "price": 1458,
     "location": "Daegu",
     "platform": "Junggonara",
@@ -975,7 +975,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "RAM-005",
+    "productCode": "RAM-0005",
     "price": 1475,
     "location": "Daejeon",
     "platform": "Bunjang",
@@ -988,7 +988,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 1492,
     "location": "Suwon",
     "platform": "Karrot",
@@ -1001,7 +1001,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 1509,
     "location": "Ulsan",
     "platform": "Junggonara",
@@ -1014,7 +1014,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 1526,
     "location": "Gwangju",
     "platform": "Bunjang",
@@ -1027,7 +1027,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 1543,
     "location": "Seongnam",
     "platform": "Karrot",
@@ -1040,7 +1040,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 1560,
     "location": "Yongin",
     "platform": "Junggonara",
@@ -1053,7 +1053,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 1577,
     "location": "Seoul",
     "platform": "Bunjang",
@@ -1066,7 +1066,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 1594,
     "location": "Busan",
     "platform": "Karrot",
@@ -1079,7 +1079,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 1611,
     "location": "Incheon",
     "platform": "Junggonara",
@@ -1092,7 +1092,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 1628,
     "location": "Daegu",
     "platform": "Bunjang",
@@ -1106,7 +1106,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 1645,
     "location": "Daejeon",
     "platform": "Karrot",
@@ -1119,7 +1119,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "RAM-001",
+    "productCode": "RAM-0001",
     "price": 1662,
     "location": "Suwon",
     "platform": "Junggonara",
@@ -1132,7 +1132,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "RAM-002",
+    "productCode": "RAM-0002",
     "price": 1679,
     "location": "Ulsan",
     "platform": "Bunjang",
@@ -1145,7 +1145,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "RAM-003",
+    "productCode": "RAM-0003",
     "price": 1696,
     "location": "Gwangju",
     "platform": "Karrot",
@@ -1158,7 +1158,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "RAM-004",
+    "productCode": "RAM-0004",
     "price": 1713,
     "location": "Seongnam",
     "platform": "Junggonara",
@@ -1171,7 +1171,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "RAM-005",
+    "productCode": "RAM-0005",
     "price": 1730,
     "location": "Yongin",
     "platform": "Bunjang",
@@ -1184,7 +1184,7 @@
   },
   {
     "userEmail": "alpha@boopoom.com",
-    "productCode": "GPU-001",
+    "productCode": "GPU-0001",
     "price": 1747,
     "location": "Seoul",
     "platform": "Karrot",
@@ -1197,7 +1197,7 @@
   },
   {
     "userEmail": "bravo@boopoom.com",
-    "productCode": "GPU-002",
+    "productCode": "GPU-0002",
     "price": 1764,
     "location": "Busan",
     "platform": "Junggonara",
@@ -1210,7 +1210,7 @@
   },
   {
     "userEmail": "charlie@boopoom.com",
-    "productCode": "GPU-003",
+    "productCode": "GPU-0003",
     "price": 1781,
     "location": "Incheon",
     "platform": "Bunjang",
@@ -1223,7 +1223,7 @@
   },
   {
     "userEmail": "delta@boopoom.com",
-    "productCode": "GPU-004",
+    "productCode": "GPU-0004",
     "price": 1798,
     "location": "Daegu",
     "platform": "Karrot",
@@ -1238,7 +1238,7 @@
   },
   {
     "userEmail": "echo@boopoom.com",
-    "productCode": "GPU-005",
+    "productCode": "GPU-0005",
     "price": 1815,
     "location": "Daejeon",
     "platform": "Junggonara",
@@ -1252,7 +1252,7 @@
   },
   {
     "userEmail": "foxtrot@boopoom.com",
-    "productCode": "SSD-001",
+    "productCode": "SSD-0001",
     "price": 1832,
     "location": "Suwon",
     "platform": "Bunjang",
@@ -1265,7 +1265,7 @@
   },
   {
     "userEmail": "golf@boopoom.com",
-    "productCode": "SSD-002",
+    "productCode": "SSD-0002",
     "price": 1849,
     "location": "Ulsan",
     "platform": "Karrot",
@@ -1278,7 +1278,7 @@
   },
   {
     "userEmail": "hotel@boopoom.com",
-    "productCode": "SSD-003",
+    "productCode": "SSD-0003",
     "price": 1866,
     "location": "Gwangju",
     "platform": "Junggonara",
@@ -1291,7 +1291,7 @@
   },
   {
     "userEmail": "india@boopoom.com",
-    "productCode": "SSD-004",
+    "productCode": "SSD-0004",
     "price": 1883,
     "location": "Seongnam",
     "platform": "Bunjang",
@@ -1304,7 +1304,7 @@
   },
   {
     "userEmail": "juliet@boopoom.com",
-    "productCode": "SSD-005",
+    "productCode": "SSD-0005",
     "price": 1900,
     "location": "Yongin",
     "platform": "Karrot",
