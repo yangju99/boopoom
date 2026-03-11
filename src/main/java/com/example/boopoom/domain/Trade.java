@@ -6,6 +6,8 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Getter
@@ -13,7 +15,7 @@ import java.time.LocalDate;
 public class Trade {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="order_id")
     private Long id;
 
@@ -41,6 +43,9 @@ public class Trade {
     @Enumerated(EnumType.STRING)
     private DamageStatus damageStatus;
 
+    @OneToMany(mappedBy = "trade", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<TradeImage> images = new ArrayList<>();
+
     public void setUser(User user){
         this.user = user;
         user.addTrade(this);
@@ -49,6 +54,11 @@ public class Trade {
     public void setProduct (Product product){
         this.product = product;
         product.addTrade(this);
+    }
+
+    public void addImage(TradeImage image) {
+        images.add(image);
+        image.setTrade(this);
     }
 
     public static Trade createTrade(User user,

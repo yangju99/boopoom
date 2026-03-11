@@ -3,6 +3,12 @@ body {
     min-height: 100vh;
 }
 
+.top-point-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+}
+
 .card {
     border: 0;
     border-radius: 1rem;
@@ -21,4 +27,61 @@ body {
 
 .product-chip {
     cursor: pointer;
+}
+
+.product-picker {
+    border: 1px solid #dfe6f2;
+    border-radius: 0.75rem;
+    background: #fbfcff;
+    padding: 0.75rem;
+}
+
+.product-group + .product-group {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #cfd8e6;
+}
+
+.product-group-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: #495a7a;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.trade-thumb {
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    border: 1px solid #d7ddea;
+}
+
+.scatter-chart-wrap {
+    position: relative;
+    width: 100%;
+    min-height: 360px;
+    height: 55vh;
+    max-height: 620px;
+}
+
+.trade-detail-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.trade-detail-image {
+    width: 96px;
+    height: 72px;
+    max-width: 96px;
+    max-height: 72px;
+    object-fit: contain;
+    display: block;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d7ddea;
+    background: #f8fafc;
 }

@@ -4,6 +4,7 @@ import com.example.boopoom.domain.DamageStatus;
 import com.example.boopoom.domain.Platform;
 import com.example.boopoom.domain.Role;
 import com.example.boopoom.domain.Trade;
+import com.example.boopoom.domain.TradeImage;
 import com.example.boopoom.domain.TradeStatus;
 import com.example.boopoom.domain.User;
 import com.example.boopoom.domain.product.Gpu;
@@ -11,8 +12,10 @@ import com.example.boopoom.domain.product.Product;
 import com.example.boopoom.domain.product.Ram;
 import com.example.boopoom.domain.product.Ssd;
 import com.example.boopoom.repository.ProductRepository;
+import com.example.boopoom.repository.TradeImageRepository;
 import com.example.boopoom.repository.TradeRepository;
 import com.example.boopoom.repository.UserRepository;
+import com.example.boopoom.service.TradeImageStorageService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.json.JsonMapper;
@@ -31,6 +34,7 @@ import org.springframework.transaction.support.TransactionTemplate;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -47,6 +51,8 @@ public class JsonDataSeedRunner implements CommandLineRunner {
     private final ProductRepository productRepository;
     private final UserRepository userRepository;
     private final TradeRepository tradeRepository;
+    private final TradeImageRepository tradeImageRepository;
+    private final TradeImageStorageService tradeImageStorageService;
     private final PasswordEncoder passwordEncoder;
     private final EntityManager em;
     private final ConfigurableApplicationContext context;
@@ -98,6 +104,7 @@ public class JsonDataSeedRunner implements CommandLineRunner {
     }
 
     private void clearAllData() {
+        em.createQuery("delete from TradeImage").executeUpdate();
         em.createQuery("delete from Trade").executeUpdate();
         em.createQuery("delete from Product").executeUpdate();
         em.createQuery("delete from User").executeUpdate();
@@ -191,7 +198,54 @@ public class JsonDataSeedRunner implements CommandLineRunner {
                 }
             }
             tradeRepository.save(trade);
+            seedTradeImages(trade, seed);
         }
+    }
+
+    private void seedTradeImages(Trade trade, TradeSeed seed) {
+        List<String> imagePaths = seed.images();
+        if (imagePaths == null || imagePaths.isEmpty()) {
+            imagePaths = defaultImagePaths(seed.productCode());
+        }
+
+        List<TradeImageStorageService.StoredImage> storedImages = new ArrayList<>();
+        try {
+            int sortOrder = 0;
+            for (String imagePath : imagePaths) {
+                if (imagePath == null || imagePath.isBlank()) {
+                    continue;
+                }
+                Path sourcePath = Path.of("data").resolve(imagePath).normalize();
+                TradeImageStorageService.StoredImage stored = tradeImageStorageService.storeSeedFile(sourcePath);
+                storedImages.add(stored);
+
+                TradeImage tradeImage = TradeImage.createTradeImage(
+                        stored.storageKey(),
+                        stored.imageUrl(),
+                        stored.originalFilename(),
+                        stored.contentType(),
+                        stored.sizeBytes(),
+                        sortOrder++
+                );
+                trade.addImage(tradeImage);
+                tradeImageRepository.save(tradeImage);
+            }
+        } catch (RuntimeException e) {
+            for (TradeImageStorageService.StoredImage storedImage : storedImages) {
+                tradeImageStorageService.delete(storedImage.storageKey());
+            }
+            throw e;
+        }
+    }
+
+    private List<String> defaultImagePaths(String productCode) {
+        if (productCode != null && productCode.startsWith("GPU-")) {
+            return List.of("trade/images/gpu.jpg");
+        }
+        if (productCode != null && productCode.startsWith("SSD-")) {
+            return List.of("trade/images/ssd.jpg");
+        }
+        return List.of("trade/images/ram.jpg");
     }
 
     private <T> List<T> readList(String path, TypeReference<List<T>> type) throws IOException {
@@ -248,7 +302,8 @@ public class JsonDataSeedRunner implements CommandLineRunner {
             String platform,
             String damageStatus,
             String tradeDate,
-            String status
+            String status,
+            List<String> images
     ) {}
 
     private record SeedResult(boolean skipped, long productCount, long userCount, long tradeCount) {

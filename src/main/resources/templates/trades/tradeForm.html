@@ -7,12 +7,39 @@
     <div class="card shadow-sm">
         <div class="card-body p-4">
             <h1 class="h4 mb-3">거래 제보</h1>
-            <form th:action="@{/trades/new}" method="post">
+            <form th:action="@{/trades/new}" method="post" enctype="multipart/form-data">
                 <div class="mb-3">
                     <label class="form-label">거래 상품 선택</label>
-                    <div class="d-flex flex-wrap gap-2">
-                        <button type="button" class="btn btn-outline-primary product-chip" th:each="p : ${products}"
-                                th:attr="data-product-id=${p.id}" th:text="|${p.modelName} (${p.categoryDisplay})|">상품</button>
+                    <div class="product-picker">
+                        <div class="product-group">
+                            <div class="product-group-title">GPU</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-primary product-chip"
+                                        th:each="p : ${products.?[category == 'G']}"
+                                        th:attr="data-product-id=${p.id}"
+                                        th:text="${p.modelName}">상품</button>
+                            </div>
+                        </div>
+
+                        <div class="product-group">
+                            <div class="product-group-title">RAM</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-primary product-chip"
+                                        th:each="p : ${products.?[category == 'R']}"
+                                        th:attr="data-product-id=${p.id}"
+                                        th:text="${p.modelName}">상품</button>
+                            </div>
+                        </div>
+
+                        <div class="product-group">
+                            <div class="product-group-title">SSD</div>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-primary product-chip"
+                                        th:each="p : ${products.?[category == 'S']}"
+                                        th:attr="data-product-id=${p.id}"
+                                        th:text="${p.modelName}">상품</button>
+                            </div>
+                        </div>
                     </div>
                     <input id="selectedProductId" type="hidden" name="productId" required>
                     <div class="form-text">상품 버튼을 클릭해 선택하세요.</div>
@@ -42,6 +69,11 @@
                     <div class="col-md-4">
                         <label class="form-label">거래 날짜</label>
                         <input class="form-control" type="date" name="tradeDate" required>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">물품 사진 업로드</label>
+                        <input class="form-control" type="file" name="images" accept="image/*" multiple>
+                        <div class="form-text">여러 장 업로드 가능 (이미지 파일만 허용)</div>
                     </div>
                 </div>
 
