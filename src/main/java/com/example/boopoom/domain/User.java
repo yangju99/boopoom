@@ -35,8 +35,8 @@ public class User {
     private Role role;
 
     private int points;
-    private static final int POINT_AMOUNT = 100;
-    private static final int INITIAL_POINT = 500;
+    private static final int POINT_AMOUNT = 50;
+    private static final int INITIAL_POINT = 1000;
 
     @OneToMany(mappedBy="user")
     private List<Trade> trades = new ArrayList<>();

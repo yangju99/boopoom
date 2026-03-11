@@ -2,11 +2,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "GPU-001",
-    "price": 217,
+    "price": 1386998,
     "location": "Seoul",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-02",
+    "tradeDate": "2025-07-01",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -15,11 +15,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "GPU-002",
-    "price": 234,
+    "price": 1325453,
     "location": "Busan",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-03",
+    "tradeDate": "2025-07-09",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -28,11 +28,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "GPU-003",
-    "price": 251,
+    "price": 1313854,
     "location": "Incheon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-04",
+    "tradeDate": "2025-07-17",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg"
@@ -41,11 +41,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "GPU-004",
-    "price": 268,
+    "price": 1252285,
     "location": "Daegu",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-05",
+    "tradeDate": "2025-07-25",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -54,11 +54,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "GPU-005",
-    "price": 285,
+    "price": 1200424,
     "location": "Daejeon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-06",
+    "tradeDate": "2025-08-02",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -67,11 +67,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "SSD-001",
-    "price": 302,
+    "price": 101105,
     "location": "Suwon",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-07",
+    "tradeDate": "2025-07-01",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -80,11 +80,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "SSD-002",
-    "price": 319,
+    "price": 100280,
     "location": "Ulsan",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-08",
+    "tradeDate": "2025-07-09",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg",
@@ -95,11 +95,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "SSD-003",
-    "price": 336,
+    "price": 96059,
     "location": "Gwangju",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-09",
+    "tradeDate": "2025-07-17",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -108,11 +108,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "SSD-004",
-    "price": 353,
+    "price": 92613,
     "location": "Seongnam",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-10",
+    "tradeDate": "2025-07-25",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -121,11 +121,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "SSD-005",
-    "price": 370,
+    "price": 88592,
     "location": "Yongin",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-11",
+    "tradeDate": "2025-08-02",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -134,11 +134,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "RAM-001",
-    "price": 387,
+    "price": 122330,
     "location": "Seoul",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-12",
+    "tradeDate": "2025-07-01",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -147,11 +147,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "RAM-002",
-    "price": 404,
+    "price": 118511,
     "location": "Busan",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-13",
+    "tradeDate": "2025-07-09",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -160,11 +160,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "RAM-003",
-    "price": 421,
+    "price": 117940,
     "location": "Incheon",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-14",
+    "tradeDate": "2025-07-17",
     "status": "PENDING",
     "images": [
       "trade/images/ram.jpg"
@@ -173,11 +173,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "RAM-004",
-    "price": 438,
+    "price": 108800,
     "location": "Daegu",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-15",
+    "tradeDate": "2025-07-25",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -186,11 +186,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "RAM-005",
-    "price": 455,
+    "price": 93510,
     "location": "Daejeon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-16",
+    "tradeDate": "2025-08-02",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -199,11 +199,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "GPU-001",
-    "price": 472,
+    "price": 1399898,
     "location": "Suwon",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-17",
+    "tradeDate": "2025-08-10",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -212,11 +212,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "GPU-002",
-    "price": 489,
+    "price": 1387052,
     "location": "Ulsan",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-18",
+    "tradeDate": "2025-08-18",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -225,11 +225,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "GPU-003",
-    "price": 506,
+    "price": 1325804,
     "location": "Gwangju",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-19",
+    "tradeDate": "2025-08-26",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg",
@@ -239,11 +239,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "GPU-004",
-    "price": 523,
+    "price": 1294413,
     "location": "Seongnam",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-20",
+    "tradeDate": "2025-09-03",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -252,11 +252,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "GPU-005",
-    "price": 540,
+    "price": 1211072,
     "location": "Yongin",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-21",
+    "tradeDate": "2025-09-11",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -265,11 +265,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "SSD-001",
-    "price": 557,
+    "price": 102589,
     "location": "Seoul",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-22",
+    "tradeDate": "2025-08-10",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -278,11 +278,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "SSD-002",
-    "price": 574,
+    "price": 99323,
     "location": "Busan",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-23",
+    "tradeDate": "2025-08-18",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -291,11 +291,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "SSD-003",
-    "price": 591,
+    "price": 97466,
     "location": "Incheon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-24",
+    "tradeDate": "2025-08-26",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -304,11 +304,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "SSD-004",
-    "price": 608,
+    "price": 92846,
     "location": "Daegu",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-25",
+    "tradeDate": "2025-09-03",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -317,11 +317,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "SSD-005",
-    "price": 625,
+    "price": 89890,
     "location": "Daejeon",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-26",
+    "tradeDate": "2025-09-11",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -330,11 +330,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "RAM-001",
-    "price": 642,
+    "price": 123502,
     "location": "Suwon",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-27",
+    "tradeDate": "2025-08-10",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -343,11 +343,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "RAM-002",
-    "price": 659,
+    "price": 122556,
     "location": "Ulsan",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-28",
+    "tradeDate": "2025-08-18",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -356,11 +356,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "RAM-003",
-    "price": 676,
+    "price": 119045,
     "location": "Gwangju",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-01",
+    "tradeDate": "2025-08-26",
     "status": "PENDING",
     "images": [
       "trade/images/ram.jpg"
@@ -369,11 +369,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "RAM-004",
-    "price": 693,
+    "price": 112490,
     "location": "Seongnam",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-02",
+    "tradeDate": "2025-09-03",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg",
@@ -383,11 +383,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "RAM-005",
-    "price": 710,
+    "price": 94364,
     "location": "Yongin",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-03",
+    "tradeDate": "2025-09-11",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -396,11 +396,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "GPU-001",
-    "price": 727,
+    "price": 1446679,
     "location": "Seoul",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-04",
+    "tradeDate": "2025-09-19",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -409,11 +409,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "GPU-002",
-    "price": 744,
+    "price": 1399088,
     "location": "Busan",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-05",
+    "tradeDate": "2025-09-27",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -422,11 +422,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "GPU-003",
-    "price": 761,
+    "price": 1369843,
     "location": "Incheon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-06",
+    "tradeDate": "2025-10-05",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg"
@@ -435,11 +435,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "GPU-004",
-    "price": 778,
+    "price": 1305363,
     "location": "Daegu",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-07",
+    "tradeDate": "2025-10-13",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -448,11 +448,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "GPU-005",
-    "price": 795,
+    "price": 1266306,
     "location": "Daejeon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-08",
+    "tradeDate": "2025-10-21",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -461,11 +461,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "SSD-001",
-    "price": 812,
+    "price": 101608,
     "location": "Suwon",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-09",
+    "tradeDate": "2025-09-19",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg",
@@ -476,11 +476,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "SSD-002",
-    "price": 829,
+    "price": 100777,
     "location": "Ulsan",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-10",
+    "tradeDate": "2025-09-27",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -489,11 +489,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "SSD-003",
-    "price": 846,
+    "price": 96532,
     "location": "Gwangju",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-11",
+    "tradeDate": "2025-10-05",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -502,11 +502,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "SSD-004",
-    "price": 863,
+    "price": 94205,
     "location": "Seongnam",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-12",
+    "tradeDate": "2025-10-13",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -515,11 +515,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "SSD-005",
-    "price": 880,
+    "price": 89029,
     "location": "Yongin",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-13",
+    "tradeDate": "2025-10-21",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg",
@@ -529,11 +529,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "RAM-001",
-    "price": 897,
+    "price": 127661,
     "location": "Seoul",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-14",
+    "tradeDate": "2025-09-19",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -542,11 +542,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "RAM-002",
-    "price": 914,
+    "price": 125409,
     "location": "Busan",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-15",
+    "tradeDate": "2025-09-27",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -555,11 +555,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "RAM-003",
-    "price": 931,
+    "price": 123029,
     "location": "Incheon",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-16",
+    "tradeDate": "2025-10-05",
     "status": "PENDING",
     "images": [
       "trade/images/ram.jpg"
@@ -568,11 +568,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "RAM-004",
-    "price": 948,
+    "price": 113468,
     "location": "Daegu",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-17",
+    "tradeDate": "2025-10-13",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -581,11 +581,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "RAM-005",
-    "price": 965,
+    "price": 97500,
     "location": "Daejeon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-18",
+    "tradeDate": "2025-10-21",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -594,11 +594,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "GPU-001",
-    "price": 982,
+    "price": 1476435,
     "location": "Suwon",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-19",
+    "tradeDate": "2025-10-29",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -607,11 +607,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "GPU-002",
-    "price": 999,
+    "price": 1444989,
     "location": "Ulsan",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-20",
+    "tradeDate": "2025-11-06",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -620,11 +620,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "GPU-003",
-    "price": 1016,
+    "price": 1380889,
     "location": "Gwangju",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-21",
+    "tradeDate": "2025-11-14",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg"
@@ -633,11 +633,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "GPU-004",
-    "price": 1033,
+    "price": 1347910,
     "location": "Seongnam",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-22",
+    "tradeDate": "2025-11-22",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -646,11 +646,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "GPU-005",
-    "price": 1050,
+    "price": 1276285,
     "location": "Yongin",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-23",
+    "tradeDate": "2025-11-30",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -659,11 +659,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "SSD-001",
-    "price": 1067,
+    "price": 103094,
     "location": "Seoul",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-24",
+    "tradeDate": "2025-10-29",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg",
@@ -673,11 +673,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "SSD-002",
-    "price": 1084,
+    "price": 99810,
     "location": "Busan",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-25",
+    "tradeDate": "2025-11-06",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -686,11 +686,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "SSD-003",
-    "price": 1101,
+    "price": 99137,
     "location": "Incheon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-26",
+    "tradeDate": "2025-11-14",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -699,11 +699,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "SSD-004",
-    "price": 1118,
+    "price": 93302,
     "location": "Daegu",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-27",
+    "tradeDate": "2025-11-22",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -712,11 +712,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "SSD-005",
-    "price": 1135,
+    "price": 90329,
     "location": "Daejeon",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-28",
+    "tradeDate": "2025-11-30",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -725,11 +725,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "RAM-001",
-    "price": 1152,
+    "price": 128743,
     "location": "Suwon",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-01",
+    "tradeDate": "2025-10-29",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -738,11 +738,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "RAM-002",
-    "price": 1169,
+    "price": 129552,
     "location": "Ulsan",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-02",
+    "tradeDate": "2025-11-06",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -751,11 +751,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "RAM-003",
-    "price": 1186,
+    "price": 124048,
     "location": "Gwangju",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-03",
+    "tradeDate": "2025-11-14",
     "status": "PENDING",
     "images": [
       "trade/images/ram.jpg"
@@ -764,11 +764,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "RAM-004",
-    "price": 1203,
+    "price": 117191,
     "location": "Seongnam",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-04",
+    "tradeDate": "2025-11-22",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -777,11 +777,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "RAM-005",
-    "price": 1220,
+    "price": 99687,
     "location": "Yongin",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-05",
+    "tradeDate": "2025-11-30",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -790,11 +790,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "GPU-001",
-    "price": 1237,
+    "price": 1524291,
     "location": "Seoul",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-06",
+    "tradeDate": "2025-12-08",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -803,11 +803,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "GPU-002",
-    "price": 1254,
+    "price": 1456090,
     "location": "Busan",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-07",
+    "tradeDate": "2025-12-16",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg",
@@ -817,11 +817,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "GPU-003",
-    "price": 1271,
+    "price": 1425362,
     "location": "Incheon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-08",
+    "tradeDate": "2025-12-24",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg"
@@ -830,11 +830,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "GPU-004",
-    "price": 1288,
+    "price": 1374583,
     "location": "Daegu",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-09",
+    "tradeDate": "2026-01-01",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -843,11 +843,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "GPU-005",
-    "price": 1305,
+    "price": 1317160,
     "location": "Daejeon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-10",
+    "tradeDate": "2026-01-09",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg",
@@ -858,11 +858,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "SSD-001",
-    "price": 1322,
+    "price": 102104,
     "location": "Suwon",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-11",
+    "tradeDate": "2025-12-08",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -871,11 +871,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "SSD-002",
-    "price": 1339,
+    "price": 101266,
     "location": "Ulsan",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-12",
+    "tradeDate": "2025-12-16",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -884,11 +884,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "SSD-003",
-    "price": 1356,
+    "price": 98185,
     "location": "Gwangju",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-13",
+    "tradeDate": "2025-12-24",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -897,11 +897,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "SSD-004",
-    "price": 1373,
+    "price": 94663,
     "location": "Seongnam",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-14",
+    "tradeDate": "2026-01-01",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -910,11 +910,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "SSD-005",
-    "price": 1390,
+    "price": 89460,
     "location": "Yongin",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-15",
+    "tradeDate": "2026-01-09",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -923,11 +923,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "RAM-001",
-    "price": 1407,
+    "price": 134835,
     "location": "Seoul",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-16",
+    "tradeDate": "2025-12-08",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -936,11 +936,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "RAM-002",
-    "price": 1424,
+    "price": 130574,
     "location": "Busan",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-17",
+    "tradeDate": "2025-12-16",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -949,11 +949,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "RAM-003",
-    "price": 1441,
+    "price": 128068,
     "location": "Incheon",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-18",
+    "tradeDate": "2025-12-24",
     "status": "PENDING",
     "images": [
       "trade/images/ram.jpg",
@@ -963,11 +963,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "RAM-004",
-    "price": 1458,
+    "price": 118090,
     "location": "Daegu",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-19",
+    "tradeDate": "2026-01-01",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -976,11 +976,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "RAM-005",
-    "price": 1475,
+    "price": 102899,
     "location": "Daejeon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-20",
+    "tradeDate": "2026-01-09",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -989,11 +989,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "GPU-001",
-    "price": 1492,
+    "price": 1535440,
     "location": "Suwon",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-21",
+    "tradeDate": "2026-01-17",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -1002,11 +1002,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "GPU-002",
-    "price": 1509,
+    "price": 1502440,
     "location": "Ulsan",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-22",
+    "tradeDate": "2026-01-25",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -1015,11 +1015,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "GPU-003",
-    "price": 1526,
+    "price": 1453021,
     "location": "Gwangju",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-23",
+    "tradeDate": "2026-02-02",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg"
@@ -1028,11 +1028,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "GPU-004",
-    "price": 1543,
+    "price": 1418101,
     "location": "Seongnam",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-24",
+    "tradeDate": "2026-02-10",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -1041,11 +1041,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "GPU-005",
-    "price": 1560,
+    "price": 1326318,
     "location": "Yongin",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-25",
+    "tradeDate": "2026-02-18",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -1054,11 +1054,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "SSD-001",
-    "price": 1577,
+    "price": 103592,
     "location": "Seoul",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-26",
+    "tradeDate": "2026-01-17",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -1067,11 +1067,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "SSD-002",
-    "price": 1594,
+    "price": 101515,
     "location": "Busan",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-27",
+    "tradeDate": "2026-01-25",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -1080,11 +1080,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "SSD-003",
-    "price": 1611,
+    "price": 99617,
     "location": "Incheon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-28",
+    "tradeDate": "2026-02-02",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -1093,11 +1093,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "SSD-004",
-    "price": 1628,
+    "price": 93752,
     "location": "Daegu",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-01",
+    "tradeDate": "2026-02-10",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg",
@@ -1107,11 +1107,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "SSD-005",
-    "price": 1645,
+    "price": 90763,
     "location": "Daejeon",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-02",
+    "tradeDate": "2026-02-18",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -1120,11 +1120,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "RAM-001",
-    "price": 1662,
+    "price": 135846,
     "location": "Suwon",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-03",
+    "tradeDate": "2026-01-17",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -1133,11 +1133,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "RAM-002",
-    "price": 1679,
+    "price": 134754,
     "location": "Ulsan",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-04",
+    "tradeDate": "2026-01-25",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -1146,11 +1146,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "RAM-003",
-    "price": 1696,
+    "price": 129002,
     "location": "Gwangju",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-05",
+    "tradeDate": "2026-02-02",
     "status": "PENDING",
     "images": [
       "trade/images/ram.jpg"
@@ -1159,11 +1159,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "RAM-004",
-    "price": 1713,
+    "price": 123583,
     "location": "Seongnam",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-06",
+    "tradeDate": "2026-02-10",
     "status": "COMPLETED",
     "images": [
       "trade/images/ram.jpg"
@@ -1172,11 +1172,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "RAM-005",
-    "price": 1730,
+    "price": 103631,
     "location": "Yongin",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-07",
+    "tradeDate": "2026-02-18",
     "status": "FAILED",
     "images": [
       "trade/images/ram.jpg"
@@ -1185,11 +1185,11 @@
   {
     "userEmail": "alpha@boopoom.com",
     "productCode": "GPU-001",
-    "price": 1747,
+    "price": 1583761,
     "location": "Seoul",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-08",
+    "tradeDate": "2026-02-26",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg"
@@ -1198,11 +1198,11 @@
   {
     "userEmail": "bravo@boopoom.com",
     "productCode": "GPU-002",
-    "price": 1764,
+    "price": 1512612,
     "location": "Busan",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-09",
+    "tradeDate": "2026-03-06",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg"
@@ -1211,11 +1211,11 @@
   {
     "userEmail": "charlie@boopoom.com",
     "productCode": "GPU-003",
-    "price": 1781,
+    "price": 1498505,
     "location": "Incheon",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-10",
+    "tradeDate": "2026-03-14",
     "status": "FAILED",
     "images": [
       "trade/images/gpu.jpg"
@@ -1224,11 +1224,11 @@
   {
     "userEmail": "delta@boopoom.com",
     "productCode": "GPU-004",
-    "price": 1798,
+    "price": 1427473,
     "location": "Daegu",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-11",
+    "tradeDate": "2026-03-22",
     "status": "PENDING",
     "images": [
       "trade/images/gpu.jpg",
@@ -1239,11 +1239,11 @@
   {
     "userEmail": "echo@boopoom.com",
     "productCode": "GPU-005",
-    "price": 1815,
+    "price": 1367588,
     "location": "Daejeon",
     "platform": "Junggonara",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-12",
+    "tradeDate": "2026-03-30",
     "status": "COMPLETED",
     "images": [
       "trade/images/gpu.jpg",
@@ -1253,11 +1253,11 @@
   {
     "userEmail": "foxtrot@boopoom.com",
     "productCode": "SSD-001",
-    "price": 1832,
+    "price": 103844,
     "location": "Suwon",
     "platform": "Bunjang",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-13",
+    "tradeDate": "2026-02-26",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -1266,11 +1266,11 @@
   {
     "userEmail": "golf@boopoom.com",
     "productCode": "SSD-002",
-    "price": 1849,
+    "price": 102994,
     "location": "Ulsan",
     "platform": "Karrot",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-14",
+    "tradeDate": "2026-03-06",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
@@ -1279,11 +1279,11 @@
   {
     "userEmail": "hotel@boopoom.com",
     "productCode": "SSD-003",
-    "price": 1866,
+    "price": 98656,
     "location": "Gwangju",
     "platform": "Junggonara",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-15",
+    "tradeDate": "2026-03-14",
     "status": "COMPLETED",
     "images": [
       "trade/images/ssd.jpg"
@@ -1292,11 +1292,11 @@
   {
     "userEmail": "india@boopoom.com",
     "productCode": "SSD-004",
-    "price": 1883,
+    "price": 95115,
     "location": "Seongnam",
     "platform": "Bunjang",
     "damageStatus": "CLEAN",
-    "tradeDate": "2026-02-16",
+    "tradeDate": "2026-03-22",
     "status": "FAILED",
     "images": [
       "trade/images/ssd.jpg"
@@ -1305,11 +1305,11 @@
   {
     "userEmail": "juliet@boopoom.com",
     "productCode": "SSD-005",
-    "price": 1900,
+    "price": 90983,
     "location": "Yongin",
     "platform": "Karrot",
     "damageStatus": "DAMAGE",
-    "tradeDate": "2026-02-17",
+    "tradeDate": "2026-03-30",
     "status": "PENDING",
     "images": [
       "trade/images/ssd.jpg"
