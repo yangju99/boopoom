@@ -1,0 +1,1592 @@
+[
+  {
+    "code": "GPU-0001",
+    "modelName": "Radeon 520",
+    "codeName": "Banks",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 1,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0002",
+    "modelName": "Radeon 520",
+    "codeName": "Banks",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0003",
+    "modelName": "Radeon 530",
+    "codeName": "Weston",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 1,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0004",
+    "modelName": "Radeon 530",
+    "codeName": "Weston",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0005",
+    "modelName": "Radeon 530",
+    "codeName": "Weston",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0006",
+    "modelName": "Radeon 535",
+    "codeName": "Topaz",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0007",
+    "modelName": "Radeon RX 540",
+    "codeName": "Polaris 12",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0008",
+    "modelName": "Radeon RX 540",
+    "codeName": "Polaris 12",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0009",
+    "modelName": "Radeon RX 540X",
+    "codeName": "Polaris 12",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0010",
+    "modelName": "Radeon RX 540X",
+    "codeName": "Polaris 12",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0011",
+    "modelName": "Radeon RX 550",
+    "codeName": "Polaris 12",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0012",
+    "modelName": "Radeon RX 550",
+    "codeName": "Polaris 12",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0013",
+    "modelName": "Radeon RX 550X",
+    "codeName": "Polaris 12",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0014",
+    "modelName": "Radeon RX 550X",
+    "codeName": "Polaris 12",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0015",
+    "modelName": "Radeon RX 560D",
+    "codeName": "Polaris 21",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 65
+  },
+  {
+    "code": "GPU-0016",
+    "modelName": "Radeon RX 560D",
+    "codeName": "Polaris 21",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 65
+  },
+  {
+    "code": "GPU-0017",
+    "modelName": "Radeon RX 560",
+    "codeName": "Polaris 21",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 2,
+    "powerRequirementW": 60
+  },
+  {
+    "code": "GPU-0018",
+    "modelName": "Radeon RX 560",
+    "codeName": "Polaris 21",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 60
+  },
+  {
+    "code": "GPU-0019",
+    "modelName": "Radeon RX 560X",
+    "codeName": "Polaris 21",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 60
+  },
+  {
+    "code": "GPU-0020",
+    "modelName": "Radeon RX 560 XT",
+    "codeName": "Polaris 10",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0021",
+    "modelName": "Radeon RX 560 XT",
+    "codeName": "Polaris 10",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0022",
+    "modelName": "Radeon RX 570",
+    "codeName": "Polaris 20",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0023",
+    "modelName": "Radeon RX 570",
+    "codeName": "Polaris 20",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0024",
+    "modelName": "Radeon RX 570X",
+    "codeName": "Polaris 20",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0025",
+    "modelName": "Radeon RX 570X",
+    "codeName": "Polaris 20",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0026",
+    "modelName": "Radeon RX 580 2048SP",
+    "codeName": "Polaris 20",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0027",
+    "modelName": "Radeon RX 580 2048SP",
+    "codeName": "Polaris 20",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0028",
+    "modelName": "Radeon RX 580",
+    "codeName": "Polaris 20",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 4,
+    "powerRequirementW": 185
+  },
+  {
+    "code": "GPU-0029",
+    "modelName": "Radeon RX 580",
+    "codeName": "Polaris 20",
+    "releaseYear": 2017,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 185
+  },
+  {
+    "code": "GPU-0030",
+    "modelName": "Radeon RX 580X",
+    "codeName": "Polaris 20",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 185
+  },
+  {
+    "code": "GPU-0031",
+    "modelName": "Radeon RX 590 GME",
+    "codeName": "Polaris 20",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 175
+  },
+  {
+    "code": "GPU-0032",
+    "modelName": "Radeon RX 590",
+    "codeName": "Polaris 30",
+    "releaseYear": 2018,
+    "brank": "AMD",
+    "generation": "Radeon 500",
+    "vramGB": 8,
+    "powerRequirementW": 225
+  },
+  {
+    "code": "GPU-0033",
+    "modelName": "Radeon RX 6300",
+    "codeName": "Navi 24",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 2,
+    "powerRequirementW": 32
+  },
+  {
+    "code": "GPU-0034",
+    "modelName": "Radeon RX 6400",
+    "codeName": "Navi 24",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 4,
+    "powerRequirementW": 53
+  },
+  {
+    "code": "GPU-0035",
+    "modelName": "Radeon RX 6500 XT",
+    "codeName": "Navi 24",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 4,
+    "powerRequirementW": 107
+  },
+  {
+    "code": "GPU-0036",
+    "modelName": "Radeon RX 6500 XT",
+    "codeName": "Navi 24",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 107
+  },
+  {
+    "code": "GPU-0037",
+    "modelName": "Radeon RX 6600",
+    "codeName": "Navi 23",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 132
+  },
+  {
+    "code": "GPU-0038",
+    "modelName": "Radeon RX 6600 XT",
+    "codeName": "Navi 23",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 160
+  },
+  {
+    "code": "GPU-0039",
+    "modelName": "Radeon RX 6650 XT",
+    "codeName": "Navi 23",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0040",
+    "modelName": "Radeon RX 6700",
+    "codeName": "Navi 22",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 10,
+    "powerRequirementW": 175
+  },
+  {
+    "code": "GPU-0041",
+    "modelName": "Radeon RX 6750 GRE 10GB",
+    "codeName": "Navi 22",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 10,
+    "powerRequirementW": 170
+  },
+  {
+    "code": "GPU-0042",
+    "modelName": "Radeon RX 6700 XT",
+    "codeName": "Navi 22",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 12,
+    "powerRequirementW": 230
+  },
+  {
+    "code": "GPU-0043",
+    "modelName": "Radeon RX 6750 GRE 12GB",
+    "codeName": "Navi 22",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 12,
+    "powerRequirementW": 230
+  },
+  {
+    "code": "GPU-0044",
+    "modelName": "Radeon RX 6750 XT",
+    "codeName": "Navi 22",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 12,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0045",
+    "modelName": "Radeon RX 6800",
+    "codeName": "Navi 21",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 16,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0046",
+    "modelName": "Radeon RX 6800 XT",
+    "codeName": "Navi 21",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 16,
+    "powerRequirementW": 300
+  },
+  {
+    "code": "GPU-0047",
+    "modelName": "Radeon RX 6900 XT",
+    "codeName": "Navi 21",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 16,
+    "powerRequirementW": 300
+  },
+  {
+    "code": "GPU-0048",
+    "modelName": "Radeon RX 6950 XT",
+    "codeName": "Navi 21",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 16,
+    "powerRequirementW": 335
+  },
+  {
+    "code": "GPU-0049",
+    "modelName": "Radeon RX 6300M",
+    "codeName": "Navi 24",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 2,
+    "powerRequirementW": 25
+  },
+  {
+    "code": "GPU-0050",
+    "modelName": "Radeon RX 6450M",
+    "codeName": "Navi 24",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 6450M",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0051",
+    "modelName": "Radeon RX 6550S",
+    "codeName": "Navi 24",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0052",
+    "modelName": "Radeon RX 6500M",
+    "codeName": "Navi 24",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 4,
+    "powerRequirementW": 50
+  },
+  {
+    "code": "GPU-0053",
+    "modelName": "Radeon RX 6550M",
+    "codeName": "Navi 24",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 4,
+    "powerRequirementW": 80
+  },
+  {
+    "code": "GPU-0054",
+    "modelName": "Radeon RX 6600S",
+    "codeName": "Navi 23",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 80
+  },
+  {
+    "code": "GPU-0055",
+    "modelName": "Radeon RX 6700S",
+    "codeName": "Navi 23",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 80
+  },
+  {
+    "code": "GPU-0056",
+    "modelName": "Radeon RX 6600M",
+    "codeName": "Navi 23",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 100
+  },
+  {
+    "code": "GPU-0057",
+    "modelName": "Radeon RX 6650M",
+    "codeName": "Navi 23",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0058",
+    "modelName": "Radeon RX 6800S",
+    "codeName": "Navi 23",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 100
+  },
+  {
+    "code": "GPU-0059",
+    "modelName": "Radeon RX 6650M XT",
+    "codeName": "Navi 23",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 8,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0060",
+    "modelName": "Radeon RX 6700M",
+    "codeName": "Navi 22",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 10,
+    "powerRequirementW": 135
+  },
+  {
+    "code": "GPU-0061",
+    "modelName": "Radeon RX 6800M",
+    "codeName": "Navi 22",
+    "releaseYear": 2021,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 12,
+    "powerRequirementW": 145
+  },
+  {
+    "code": "GPU-0062",
+    "modelName": "Radeon RX 6850M XT",
+    "codeName": "Navi 22",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 6000",
+    "vramGB": 12,
+    "powerRequirementW": 165
+  },
+  {
+    "code": "GPU-0063",
+    "modelName": "Radeon RX 5300",
+    "codeName": "Navi 14",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 3,
+    "powerRequirementW": 100
+  },
+  {
+    "code": "GPU-0064",
+    "modelName": "Radeon RX 5300 XT",
+    "codeName": "Navi 14",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 4,
+    "powerRequirementW": 100
+  },
+  {
+    "code": "GPU-0065",
+    "modelName": "Radeon RX 5500",
+    "codeName": "Navi 14",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 4,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0066",
+    "modelName": "Radeon RX 5500 XT",
+    "codeName": "Navi 14",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 4,
+    "powerRequirementW": 130
+  },
+  {
+    "code": "GPU-0067",
+    "modelName": "Radeon RX 5500 XT",
+    "codeName": "Navi 14",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 8,
+    "powerRequirementW": 130
+  },
+  {
+    "code": "GPU-0068",
+    "modelName": "Radeon RX 5600",
+    "codeName": "Navi 10",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 6,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0069",
+    "modelName": "Radeon RX 5600 XT",
+    "codeName": "Navi 10",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 6,
+    "powerRequirementW": 160
+  },
+  {
+    "code": "GPU-0070",
+    "modelName": "Radeon RX 5700",
+    "codeName": "Navi 10",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 8,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0071",
+    "modelName": "Radeon RX 5700 XT",
+    "codeName": "Navi 10",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 8,
+    "powerRequirementW": 225
+  },
+  {
+    "code": "GPU-0072",
+    "modelName": "Radeon RX 5700 XT 50th Anniversary Edition",
+    "codeName": "Navi 10",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 8,
+    "powerRequirementW": 235
+  },
+  {
+    "code": "GPU-0073",
+    "modelName": "Radeon RX 5300M",
+    "codeName": "Navi 14",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 3,
+    "powerRequirementW": 65
+  },
+  {
+    "code": "GPU-0074",
+    "modelName": "Radeon RX 5500M",
+    "codeName": "Navi 14",
+    "releaseYear": 2019,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 4,
+    "powerRequirementW": 85
+  },
+  {
+    "code": "GPU-0075",
+    "modelName": "Radeon RX 5600M",
+    "codeName": "Navi 10",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 6,
+    "powerRequirementW": 85
+  },
+  {
+    "code": "GPU-0076",
+    "modelName": "Radeon RX 5700M",
+    "codeName": "Navi 10",
+    "releaseYear": 2020,
+    "brank": "AMD",
+    "generation": "Radeon RX 5000",
+    "vramGB": 8,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0077",
+    "modelName": "Radeon RX 7400",
+    "codeName": "Navi 33",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 55
+  },
+  {
+    "code": "GPU-0078",
+    "modelName": "Steam Machine GPU",
+    "codeName": "Navi 33",
+    "releaseYear": null,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 110
+  },
+  {
+    "code": "GPU-0079",
+    "modelName": "Radeon RX 7600",
+    "codeName": "Navi 33",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 165
+  },
+  {
+    "code": "GPU-0080",
+    "modelName": "Radeon RX 7650 GRE",
+    "codeName": "Navi 33",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 170
+  },
+  {
+    "code": "GPU-0081",
+    "modelName": "Radeon RX 7600 XT",
+    "codeName": "Navi 33",
+    "releaseYear": 2024,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 16,
+    "powerRequirementW": 190
+  },
+  {
+    "code": "GPU-0082",
+    "modelName": "Radeon RX 7700",
+    "codeName": "Navi 32",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 16,
+    "powerRequirementW": 263
+  },
+  {
+    "code": "GPU-0083",
+    "modelName": "Radeon RX 7700 XT",
+    "codeName": "Navi 32",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 12,
+    "powerRequirementW": 245
+  },
+  {
+    "code": "GPU-0084",
+    "modelName": "Radeon RX 7800 XT",
+    "codeName": "Navi 32",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 16,
+    "powerRequirementW": 263
+  },
+  {
+    "code": "GPU-0085",
+    "modelName": "Radeon RX 7900 GRE",
+    "codeName": "Navi 31",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 16,
+    "powerRequirementW": 260
+  },
+  {
+    "code": "GPU-0086",
+    "modelName": "Radeon RX 7900 XT",
+    "codeName": "Navi 31",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 20,
+    "powerRequirementW": 315
+  },
+  {
+    "code": "GPU-0087",
+    "modelName": "Radeon RX 7900 XTX",
+    "codeName": "Navi 31",
+    "releaseYear": 2022,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 24,
+    "powerRequirementW": 355
+  },
+  {
+    "code": "GPU-0088",
+    "modelName": "Radeon RX 7600S",
+    "codeName": "Navi 33",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 75
+  },
+  {
+    "code": "GPU-0089",
+    "modelName": "Radeon RX 7600M",
+    "codeName": "Navi 33",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 90
+  },
+  {
+    "code": "GPU-0090",
+    "modelName": "Radeon RX 7600M XT",
+    "codeName": "Navi 33",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0091",
+    "modelName": "Radeon RX 7700S",
+    "codeName": "Navi 33",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 8,
+    "powerRequirementW": 100
+  },
+  {
+    "code": "GPU-0092",
+    "modelName": "Radeon RX 7800M",
+    "codeName": "Navi 32",
+    "releaseYear": 2024,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 12,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0093",
+    "modelName": "Radeon RX 7900M",
+    "codeName": "Navi 31",
+    "releaseYear": 2023,
+    "brank": "AMD",
+    "generation": "Radeon RX 7000",
+    "vramGB": 16,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0094",
+    "modelName": "Radeon RX 9060",
+    "codeName": "Navi 44",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 9000",
+    "vramGB": 8,
+    "powerRequirementW": 132
+  },
+  {
+    "code": "GPU-0095",
+    "modelName": "Radeon RX 9060 XT",
+    "codeName": "Navi 44",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 9000",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0096",
+    "modelName": "Radeon RX 9060 XT",
+    "codeName": "Navi 44",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 9000",
+    "vramGB": 16,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0097",
+    "modelName": "Radeon RX 9070 GRE",
+    "codeName": "Navi 48",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 9000",
+    "vramGB": 12,
+    "powerRequirementW": 220
+  },
+  {
+    "code": "GPU-0098",
+    "modelName": "Radeon RX 9070",
+    "codeName": "Navi 48",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 9000",
+    "vramGB": 16,
+    "powerRequirementW": 220
+  },
+  {
+    "code": "GPU-0099",
+    "modelName": "Radeon RX 9070 XT",
+    "codeName": "Navi 48",
+    "releaseYear": 2025,
+    "brank": "AMD",
+    "generation": "Radeon RX 9000",
+    "vramGB": 16,
+    "powerRequirementW": 304
+  },
+  {
+    "code": "GPU-0100",
+    "modelName": "GeForce GT 1010",
+    "codeName": "GP108-200-A1",
+    "releaseYear": 2021,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 2,
+    "powerRequirementW": 30
+  },
+  {
+    "code": "GPU-0101",
+    "modelName": "GeForce GT 1030",
+    "codeName": "GP108-300-A1",
+    "releaseYear": 2017,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 2,
+    "powerRequirementW": 20
+  },
+  {
+    "code": "GPU-0102",
+    "modelName": "GeForce GTX 1050",
+    "codeName": "GP107-300-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 2,
+    "powerRequirementW": 75
+  },
+  {
+    "code": "GPU-0103",
+    "modelName": "GeForce GTX 1050",
+    "codeName": "GP107-300-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 3,
+    "powerRequirementW": 75
+  },
+  {
+    "code": "GPU-0104",
+    "modelName": "GeForce GTX 1050 Ti",
+    "codeName": "GP107-400-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 4,
+    "powerRequirementW": 75
+  },
+  {
+    "code": "GPU-0105",
+    "modelName": "GeForce GTX 1060",
+    "codeName": "GP106-400-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 3,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0106",
+    "modelName": "GeForce GTX 1060",
+    "codeName": "GP106-400-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 5,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0107",
+    "modelName": "GeForce GTX 1060",
+    "codeName": "GP106-400-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 6,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0108",
+    "modelName": "GeForce GTX 1070",
+    "codeName": "GP104-200-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0109",
+    "modelName": "GeForce GTX 1070 Ti",
+    "codeName": "GP104-300-A1",
+    "releaseYear": 2017,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 8,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0110",
+    "modelName": "GeForce GTX 1080",
+    "codeName": "GP104-400-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 8,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0111",
+    "modelName": "GeForce GTX 1080 Ti",
+    "codeName": "GP102-350-K1-A1",
+    "releaseYear": 2017,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 11,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0112",
+    "modelName": "NVIDIA Titan X (Pascal)",
+    "codeName": "GP102-400-A1",
+    "releaseYear": 2016,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 12,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0113",
+    "modelName": "NVIDIA Titan Xp",
+    "codeName": "GP102-450-A1",
+    "releaseYear": 2017,
+    "brank": "NVIDIA",
+    "generation": "GeForce 10 series",
+    "vramGB": 12,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0114",
+    "modelName": "GeForce GTX 1630",
+    "codeName": "TU117-150-A1",
+    "releaseYear": 2022,
+    "brank": "NVIDIA",
+    "generation": "GeForce 16 series",
+    "vramGB": 4,
+    "powerRequirementW": 75
+  },
+  {
+    "code": "GPU-0115",
+    "modelName": "GeForce GTX 1650",
+    "codeName": "TU117-300-A1",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce 16 series",
+    "vramGB": 4,
+    "powerRequirementW": 75
+  },
+  {
+    "code": "GPU-0116",
+    "modelName": "GeForce GTX 1650 Super",
+    "codeName": "TU116-250-A1",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce 16 series",
+    "vramGB": 4,
+    "powerRequirementW": 100
+  },
+  {
+    "code": "GPU-0117",
+    "modelName": "GeForce GTX 1660",
+    "codeName": "TU116-300-A1",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce 16 series",
+    "vramGB": 6,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0118",
+    "modelName": "GeForce GTX 1660 Super",
+    "codeName": "TU116-300-A1",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce 16 series",
+    "vramGB": 6,
+    "powerRequirementW": 125
+  },
+  {
+    "code": "GPU-0119",
+    "modelName": "GeForce GTX 1660 Ti",
+    "codeName": "TU116-400-A1",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce 16 series",
+    "vramGB": 6,
+    "powerRequirementW": 120
+  },
+  {
+    "code": "GPU-0120",
+    "modelName": "GeForce RTX 2060",
+    "codeName": "TU106-200A",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 6,
+    "powerRequirementW": 160
+  },
+  {
+    "code": "GPU-0121",
+    "modelName": "GeForce RTX 2060 (12 GB)",
+    "codeName": "TU106-300",
+    "releaseYear": 2021,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 12,
+    "powerRequirementW": 185
+  },
+  {
+    "code": "GPU-0122",
+    "modelName": "GeForce RTX 2060 Super",
+    "codeName": "TU106-410",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 8,
+    "powerRequirementW": 175
+  },
+  {
+    "code": "GPU-0123",
+    "modelName": "GeForce RTX 2070",
+    "codeName": "TU106-400",
+    "releaseYear": 2018,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 8,
+    "powerRequirementW": 175
+  },
+  {
+    "code": "GPU-0124",
+    "modelName": "GeForce RTX 2070 Super",
+    "codeName": "TU104-410",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 8,
+    "powerRequirementW": 215
+  },
+  {
+    "code": "GPU-0125",
+    "modelName": "GeForce RTX 2080",
+    "codeName": "TU104-400",
+    "releaseYear": 2018,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 8,
+    "powerRequirementW": 215
+  },
+  {
+    "code": "GPU-0126",
+    "modelName": "GeForce RTX 2080 Super",
+    "codeName": "TU104-450",
+    "releaseYear": 2019,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 8,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0127",
+    "modelName": "GeForce RTX 2080 Ti",
+    "codeName": "TU102-300",
+    "releaseYear": 2018,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 11,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0128",
+    "modelName": "NVIDIA Titan RTX",
+    "codeName": "TU102-400",
+    "releaseYear": 2018,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 20 series",
+    "vramGB": 24,
+    "powerRequirementW": 280
+  },
+  {
+    "code": "GPU-0129",
+    "modelName": "GeForce RTX 3050",
+    "codeName": "GA106-150",
+    "releaseYear": 2022,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 6,
+    "powerRequirementW": 70
+  },
+  {
+    "code": "GPU-0130",
+    "modelName": "GeForce RTX 3050",
+    "codeName": "GA106-150",
+    "releaseYear": 2022,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 8,
+    "powerRequirementW": 70
+  },
+  {
+    "code": "GPU-0131",
+    "modelName": "GeForce RTX 3060",
+    "codeName": "GA106-300",
+    "releaseYear": 2021,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 8,
+    "powerRequirementW": 170
+  },
+  {
+    "code": "GPU-0132",
+    "modelName": "GeForce RTX 3060",
+    "codeName": "GA106-300",
+    "releaseYear": 2021,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 12,
+    "powerRequirementW": 170
+  },
+  {
+    "code": "GPU-0133",
+    "modelName": "GeForce RTX 3060 Ti",
+    "codeName": "GA104-200",
+    "releaseYear": 2020,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 8,
+    "powerRequirementW": 200
+  },
+  {
+    "code": "GPU-0134",
+    "modelName": "GeForce RTX 3070",
+    "codeName": "GA104-300",
+    "releaseYear": 2020,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 8,
+    "powerRequirementW": 220
+  },
+  {
+    "code": "GPU-0135",
+    "modelName": "GeForce RTX 3070 Ti",
+    "codeName": "GA104-400",
+    "releaseYear": 2021,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 8,
+    "powerRequirementW": 290
+  },
+  {
+    "code": "GPU-0136",
+    "modelName": "GeForce RTX 3080",
+    "codeName": "GA102-200",
+    "releaseYear": 2020,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 10,
+    "powerRequirementW": 320
+  },
+  {
+    "code": "GPU-0137",
+    "modelName": "GeForce RTX 3080",
+    "codeName": "GA102-200",
+    "releaseYear": 2020,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 12,
+    "powerRequirementW": 320
+  },
+  {
+    "code": "GPU-0138",
+    "modelName": "GeForce RTX 3080 Ti",
+    "codeName": "GA102-225",
+    "releaseYear": 2021,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 12,
+    "powerRequirementW": 350
+  },
+  {
+    "code": "GPU-0139",
+    "modelName": "GeForce RTX 3090",
+    "codeName": "GA102-300",
+    "releaseYear": 2020,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 24,
+    "powerRequirementW": 350
+  },
+  {
+    "code": "GPU-0140",
+    "modelName": "GeForce RTX 3090 Ti",
+    "codeName": "GA102-350",
+    "releaseYear": 2022,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 30 series",
+    "vramGB": 24,
+    "powerRequirementW": 450
+  },
+  {
+    "code": "GPU-0141",
+    "modelName": "GeForce RTX 4060",
+    "codeName": "AD107-400-A1",
+    "releaseYear": 2023,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 8,
+    "powerRequirementW": 115
+  },
+  {
+    "code": "GPU-0142",
+    "modelName": "GeForce RTX 4060 Ti",
+    "codeName": "AD106-350-A1",
+    "releaseYear": 2023,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 8,
+    "powerRequirementW": 160
+  },
+  {
+    "code": "GPU-0143",
+    "modelName": "GeForce RTX 4060 Ti",
+    "codeName": "AD106-350-A1",
+    "releaseYear": 2023,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 16,
+    "powerRequirementW": 160
+  },
+  {
+    "code": "GPU-0144",
+    "modelName": "GeForce RTX 4070",
+    "codeName": "AD104-250-A1",
+    "releaseYear": 2023,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 12,
+    "powerRequirementW": 200
+  },
+  {
+    "code": "GPU-0145",
+    "modelName": "GeForce RTX 4070 Super",
+    "codeName": "AD104-350-A1",
+    "releaseYear": 2024,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 12,
+    "powerRequirementW": 220
+  },
+  {
+    "code": "GPU-0146",
+    "modelName": "GeForce RTX 4070 Ti",
+    "codeName": "AD104-400-A1",
+    "releaseYear": 2023,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 12,
+    "powerRequirementW": 285
+  },
+  {
+    "code": "GPU-0147",
+    "modelName": "GeForce RTX 4070 Ti Super",
+    "codeName": "AD103-275-A1",
+    "releaseYear": 2024,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 16,
+    "powerRequirementW": 285
+  },
+  {
+    "code": "GPU-0148",
+    "modelName": "GeForce RTX 4080",
+    "codeName": "AD103-300-A1",
+    "releaseYear": 2022,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 16,
+    "powerRequirementW": 320
+  },
+  {
+    "code": "GPU-0149",
+    "modelName": "GeForce RTX 4080 Super",
+    "codeName": "AD103-400-A1",
+    "releaseYear": 2024,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 16,
+    "powerRequirementW": 320
+  },
+  {
+    "code": "GPU-0150",
+    "modelName": "GeForce RTX 4090",
+    "codeName": "AD102-300-A1",
+    "releaseYear": 2022,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 40 series",
+    "vramGB": 24,
+    "powerRequirementW": 450
+  },
+  {
+    "code": "GPU-0151",
+    "modelName": "GeForce RTX 5050",
+    "codeName": "GB207",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 8,
+    "powerRequirementW": 130
+  },
+  {
+    "code": "GPU-0152",
+    "modelName": "GeForce RTX 5060",
+    "codeName": "GB206",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 8,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0153",
+    "modelName": "GeForce RTX 5060",
+    "codeName": "GB206",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 12,
+    "powerRequirementW": 150
+  },
+  {
+    "code": "GPU-0154",
+    "modelName": "GeForce RTX 5060 Ti",
+    "codeName": "GB206",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 8,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0155",
+    "modelName": "GeForce RTX 5060 Ti",
+    "codeName": "GB206",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 16,
+    "powerRequirementW": 180
+  },
+  {
+    "code": "GPU-0156",
+    "modelName": "GeForce RTX 5070",
+    "codeName": "GB205",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 12,
+    "powerRequirementW": 250
+  },
+  {
+    "code": "GPU-0157",
+    "modelName": "GeForce RTX 5070 Ti",
+    "codeName": "GB203-300-A1",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 16,
+    "powerRequirementW": 300
+  },
+  {
+    "code": "GPU-0158",
+    "modelName": "GeForce RTX 5080",
+    "codeName": "GB203-400-A1",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 16,
+    "powerRequirementW": 360
+  },
+  {
+    "code": "GPU-0159",
+    "modelName": "GeForce RTX 5090",
+    "codeName": "GB202-300-A1",
+    "releaseYear": 2025,
+    "brank": "NVIDIA",
+    "generation": "GeForce RTX 50 series",
+    "vramGB": 32,
+    "powerRequirementW": 575
+  }
+]

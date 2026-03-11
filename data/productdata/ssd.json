@@ -1,0 +1,3152 @@
+[
+  {
+    "code": "SSD-0001",
+    "modelName": "9100 PRO",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0002",
+    "modelName": "9100 PRO",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0003",
+    "modelName": "9100 PRO",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0004",
+    "modelName": "9100 PRO",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 8192
+  },
+  {
+    "code": "SSD-0005",
+    "modelName": "990 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0006",
+    "modelName": "990 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0007",
+    "modelName": "990 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0008",
+    "modelName": "990 EVO",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0009",
+    "modelName": "990 EVO",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0010",
+    "modelName": "990 PRO",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0011",
+    "modelName": "990 PRO",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0012",
+    "modelName": "990 PRO",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0013",
+    "modelName": "SSD 980",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0014",
+    "modelName": "SSD 980",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0015",
+    "modelName": "SSD 980",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0016",
+    "modelName": "870 EVO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0017",
+    "modelName": "870 EVO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0018",
+    "modelName": "870 EVO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0019",
+    "modelName": "870 EVO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0020",
+    "modelName": "870 EVO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0021",
+    "modelName": "470",
+    "modelNumber": "",
+    "releaseYear": 2010,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 2",
+    "capacityGB": 64
+  },
+  {
+    "code": "SSD-0022",
+    "modelName": "470",
+    "modelNumber": "",
+    "releaseYear": 2010,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 2",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0023",
+    "modelName": "470",
+    "modelNumber": "",
+    "releaseYear": 2010,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 2",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0024",
+    "modelName": "830",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 64
+  },
+  {
+    "code": "SSD-0025",
+    "modelName": "830",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0026",
+    "modelName": "830",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0027",
+    "modelName": "830",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0028",
+    "modelName": "840 BASIC",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0029",
+    "modelName": "840 BASIC",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0030",
+    "modelName": "840 BASIC",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0031",
+    "modelName": "840 PRO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0032",
+    "modelName": "840 PRO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0033",
+    "modelName": "840 PRO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0034",
+    "modelName": "840 EVO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0035",
+    "modelName": "840 EVO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0036",
+    "modelName": "840 EVO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0037",
+    "modelName": "840 EVO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 750
+  },
+  {
+    "code": "SSD-0038",
+    "modelName": "840 EVO",
+    "modelNumber": "",
+    "releaseYear": 2012,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0039",
+    "modelName": "840 EVO Mini",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0040",
+    "modelName": "840 EVO Mini",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0041",
+    "modelName": "840 EVO Mini",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0042",
+    "modelName": "840 EVO Mini",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0043",
+    "modelName": "850 PRO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0044",
+    "modelName": "850 PRO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0045",
+    "modelName": "850 PRO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0046",
+    "modelName": "850 PRO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0047",
+    "modelName": "850 PRO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0048",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0049",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0050",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0051",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0052",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0053",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0054",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0055",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0056",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0057",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "Mini SATA",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0058",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0059",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0060",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0061",
+    "modelName": "850 EVO",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0062",
+    "modelName": "750",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0063",
+    "modelName": "750",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0064",
+    "modelName": "750",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0065",
+    "modelName": "950 PRO",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0066",
+    "modelName": "950 PRO",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0067",
+    "modelName": "960 PRO",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0068",
+    "modelName": "960 PRO",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0069",
+    "modelName": "960 PRO",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0070",
+    "modelName": "960 EVO",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0071",
+    "modelName": "960 EVO",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0072",
+    "modelName": "960 EVO",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0073",
+    "modelName": "860 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0074",
+    "modelName": "860 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0075",
+    "modelName": "860 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0076",
+    "modelName": "860 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0077",
+    "modelName": "860 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0078",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0079",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0080",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0081",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0082",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0083",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0084",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0085",
+    "modelName": "860 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (SATA)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0086",
+    "modelName": "860 QVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1
+  },
+  {
+    "code": "SSD-0087",
+    "modelName": "860 QVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2
+  },
+  {
+    "code": "SSD-0088",
+    "modelName": "860 QVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0089",
+    "modelName": "970 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0090",
+    "modelName": "970 PRO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0091",
+    "modelName": "970 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0092",
+    "modelName": "970 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0093",
+    "modelName": "970 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0094",
+    "modelName": "970 EVO",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0095",
+    "modelName": "970 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0096",
+    "modelName": "970 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0097",
+    "modelName": "970 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0098",
+    "modelName": "970 EVO Plus",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0099",
+    "modelName": "870 QVO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1
+  },
+  {
+    "code": "SSD-0100",
+    "modelName": "870 QVO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2
+  },
+  {
+    "code": "SSD-0101",
+    "modelName": "870 QVO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4
+  },
+  {
+    "code": "SSD-0102",
+    "modelName": "870 QVO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 8192
+  },
+  {
+    "code": "SSD-0103",
+    "modelName": "980 PRO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0104",
+    "modelName": "980 PRO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0105",
+    "modelName": "980 PRO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0106",
+    "modelName": "980 PRO",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "samsung",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0107",
+    "modelName": "Platinum P51",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0108",
+    "modelName": "Platinum P51",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0109",
+    "modelName": "Platinum P51",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0110",
+    "modelName": "Platinum P41",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0111",
+    "modelName": "Platinum P41",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0112",
+    "modelName": "Platinum P41",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0113",
+    "modelName": "Gold P31",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0114",
+    "modelName": "Gold P31",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0115",
+    "modelName": "Gold P31",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "sk hynix",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0116",
+    "modelName": "Gold S31",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "sk hynix",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0117",
+    "modelName": "Gold S31",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "sk hynix",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0118",
+    "modelName": "Gold S31",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "sk hynix",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0119",
+    "modelName": "P44 Pro",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0120",
+    "modelName": "P44 Pro",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0121",
+    "modelName": "P44 Pro",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0122",
+    "modelName": "P41 Plus",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0123",
+    "modelName": "P41 Plus",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0124",
+    "modelName": "P41 Plus",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0125",
+    "modelName": "SSD 670p (SOLIDIGM 670p)",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0126",
+    "modelName": "SSD 670p (SOLIDIGM 670p)",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0127",
+    "modelName": "SSD 670p (SOLIDIGM 670p)",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0128",
+    "modelName": "SSD 665p",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0129",
+    "modelName": "SSD 665p",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0130",
+    "modelName": "SSD 760p",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0131",
+    "modelName": "SSD 760p",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0132",
+    "modelName": "SSD 760p",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0133",
+    "modelName": "SSD 660p",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0134",
+    "modelName": "SSD 660p",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0135",
+    "modelName": "SSD 660p",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "solidigm",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0136",
+    "modelName": "SSD 545s",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "solidigm",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0137",
+    "modelName": "SSD 545s",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "solidigm",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0138",
+    "modelName": "SSD 545s",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "solidigm",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0139",
+    "modelName": "SSD 545s",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "solidigm",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0140",
+    "modelName": "SN8100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0141",
+    "modelName": "SN8100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0142",
+    "modelName": "SN8100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0143",
+    "modelName": "SN7100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0144",
+    "modelName": "SN7100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0145",
+    "modelName": "SN5100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0146",
+    "modelName": "SN5100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0147",
+    "modelName": "SN5100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0148",
+    "modelName": "SN5100",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0149",
+    "modelName": "SN5000S",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0150",
+    "modelName": "SN5000S",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0151",
+    "modelName": "SN5000S",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0152",
+    "modelName": "Blue SN580",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0153",
+    "modelName": "Blue SN580",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0154",
+    "modelName": "Blue SN580",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0155",
+    "modelName": "Blue SN580",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0156",
+    "modelName": "BLACK SN850X",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0157",
+    "modelName": "BLACK SN850X",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0158",
+    "modelName": "BLACK SN850X",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0159",
+    "modelName": "BLACK SN850X",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 8192
+  },
+  {
+    "code": "SSD-0160",
+    "modelName": "BLACK SN770",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0161",
+    "modelName": "BLACK SN770",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0162",
+    "modelName": "BLACK SN770",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0163",
+    "modelName": "BLACK SN770",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0164",
+    "modelName": "BLACK SN740",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0165",
+    "modelName": "BLACK SN740",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0166",
+    "modelName": "BLACK SN740",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0167",
+    "modelName": "BLACK SN740",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0168",
+    "modelName": "BLACK SN750 SE",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0169",
+    "modelName": "BLACK SN750 SE",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0170",
+    "modelName": "BLACK SN750 SE",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0171",
+    "modelName": "RED SN700",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0172",
+    "modelName": "RED SN700",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0173",
+    "modelName": "RED SN700",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0174",
+    "modelName": "RED SN700",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0175",
+    "modelName": "RED SN700",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0176",
+    "modelName": "Blue SN570",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0177",
+    "modelName": "Blue SN570",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0178",
+    "modelName": "Blue SN570",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0179",
+    "modelName": "Blue SN570",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0180",
+    "modelName": "Blue SN530",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0181",
+    "modelName": "Blue SN530",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0182",
+    "modelName": "Blue SN530",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0183",
+    "modelName": "Green SN350",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0184",
+    "modelName": "Green SN350",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0185",
+    "modelName": "Green SN350",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0186",
+    "modelName": "Green SN350",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0187",
+    "modelName": "Green SN350",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 960
+  },
+  {
+    "code": "SSD-0188",
+    "modelName": "BLACK SN850",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0189",
+    "modelName": "BLACK SN850",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0190",
+    "modelName": "BLACK SN850",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0191",
+    "modelName": "Blue SN550",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0192",
+    "modelName": "Blue SN550",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0193",
+    "modelName": "Blue SN550",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0194",
+    "modelName": "BLACK SN750",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0195",
+    "modelName": "BLACK SN750",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0196",
+    "modelName": "BLACK SN750",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0197",
+    "modelName": "BLACK SN750",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0198",
+    "modelName": "BLACK SN750",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0199",
+    "modelName": "Blue SN500",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0200",
+    "modelName": "Blue SN500",
+    "modelNumber": "",
+    "releaseYear": 2019,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0201",
+    "modelName": "BLACK 3D",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0202",
+    "modelName": "BLACK 3D",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0203",
+    "modelName": "BLACK 3D",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0204",
+    "modelName": "BLACK PCIe",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0205",
+    "modelName": "BLACK PCIe",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0206",
+    "modelName": "Blue SA510",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0207",
+    "modelName": "Blue SA510",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0208",
+    "modelName": "Blue SA510",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0209",
+    "modelName": "Blue SA510",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0210",
+    "modelName": "Blue SA510",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0211",
+    "modelName": "Blue SA510",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0212",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0213",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0214",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0215",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0216",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0217",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0218",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0219",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0220",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0221",
+    "modelName": "Green (3세대)",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0222",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0223",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0224",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0225",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0226",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0227",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0228",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0229",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0230",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0231",
+    "modelName": "Blue 3D",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0232",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0233",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0234",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0235",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0236",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0237",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0238",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0239",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0240",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0241",
+    "modelName": "Green (2세대)",
+    "modelNumber": "",
+    "releaseYear": 2017,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0242",
+    "modelName": "Blue",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0243",
+    "modelName": "Blue",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0244",
+    "modelName": "Blue",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0245",
+    "modelName": "Blue",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0246",
+    "modelName": "Blue",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0247",
+    "modelName": "Blue",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0248",
+    "modelName": "Green",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0249",
+    "modelName": "Green",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0250",
+    "modelName": "Green",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 120
+  },
+  {
+    "code": "SSD-0251",
+    "modelName": "Green",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "western digital",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0252",
+    "modelName": "T710",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "micron",
+    "Form factor": "M.2 (Nvme)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0253",
+    "modelName": "T710",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "micron",
+    "Form factor": "M.2 (Nvme)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0254",
+    "modelName": "T710",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "micron",
+    "Form factor": "M.2 (Nvme)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0255",
+    "modelName": "T705",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0256",
+    "modelName": "T705",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0257",
+    "modelName": "T705",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0258",
+    "modelName": "T700 Pro",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0259",
+    "modelName": "T700",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0260",
+    "modelName": "T700",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0261",
+    "modelName": "T700",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0262",
+    "modelName": "T500",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0263",
+    "modelName": "T500",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0264",
+    "modelName": "T500",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0265",
+    "modelName": "P3 Plus",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0266",
+    "modelName": "P3 Plus",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0267",
+    "modelName": "P3 Plus",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0268",
+    "modelName": "P3 Plus",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0269",
+    "modelName": "P3",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0270",
+    "modelName": "P3",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0271",
+    "modelName": "P3",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0272",
+    "modelName": "P3",
+    "modelNumber": "",
+    "releaseYear": 2022,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0273",
+    "modelName": "P5 Plus",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0274",
+    "modelName": "P5 Plus",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0275",
+    "modelName": "P5 Plus",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0276",
+    "modelName": "P5",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0277",
+    "modelName": "P5",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0278",
+    "modelName": "P5",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0279",
+    "modelName": "P5",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0280",
+    "modelName": "P2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0281",
+    "modelName": "P2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0282",
+    "modelName": "P2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0283",
+    "modelName": "P2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0284",
+    "modelName": "P1",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0285",
+    "modelName": "P1",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0286",
+    "modelName": "P1",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0287",
+    "modelName": "BX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0288",
+    "modelName": "BX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0289",
+    "modelName": "BX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0290",
+    "modelName": "BX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0291",
+    "modelName": "BX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0292",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0293",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0294",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0295",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0296",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0297",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0298",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0299",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0300",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0301",
+    "modelName": "MX500",
+    "modelNumber": "",
+    "releaseYear": 2018,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0302",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 275
+  },
+  {
+    "code": "SSD-0303",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 525
+  },
+  {
+    "code": "SSD-0304",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 750
+  },
+  {
+    "code": "SSD-0305",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0306",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0307",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 275
+  },
+  {
+    "code": "SSD-0308",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 525
+  },
+  {
+    "code": "SSD-0309",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 750
+  },
+  {
+    "code": "SSD-0310",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0311",
+    "modelName": "MX300",
+    "modelNumber": "",
+    "releaseYear": 2016,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0312",
+    "modelName": "MX200",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0313",
+    "modelName": "MX200",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0314",
+    "modelName": "MX200",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0315",
+    "modelName": "MX200",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0316",
+    "modelName": "MX200",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0317",
+    "modelName": "MX200",
+    "modelNumber": "",
+    "releaseYear": 2015,
+    "brand": "micron",
+    "Form factor": "M.2 (SATA 3)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0318",
+    "modelName": "MX100",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0319",
+    "modelName": "MX100",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0320",
+    "modelName": "MX100",
+    "modelNumber": "",
+    "releaseYear": 2014,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0321",
+    "modelName": "M4",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 64
+  },
+  {
+    "code": "SSD-0322",
+    "modelName": "M4",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 128
+  },
+  {
+    "code": "SSD-0323",
+    "modelName": "M4",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 256
+  },
+  {
+    "code": "SSD-0324",
+    "modelName": "M4",
+    "modelNumber": "",
+    "releaseYear": 2011,
+    "brand": "micron",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 512
+  },
+  {
+    "code": "SSD-0325",
+    "modelName": "EXCERIA PLUS G4",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0326",
+    "modelName": "EXCERIA PLUS G4",
+    "modelNumber": "",
+    "releaseYear": 2024,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0327",
+    "modelName": "EXCERIA BASIC",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0328",
+    "modelName": "EXCERIA BASIC",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0329",
+    "modelName": "EXCERIA 히트싱크",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0330",
+    "modelName": "EXCERIA 히트싱크",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0331",
+    "modelName": "EXCERIA 히트싱크",
+    "modelNumber": "",
+    "releaseYear": 2025,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 4096
+  },
+  {
+    "code": "SSD-0332",
+    "modelName": "EXCERIA PLUS G3",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0333",
+    "modelName": "EXCERIA PLUS G3",
+    "modelNumber": "",
+    "releaseYear": 2023,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0334",
+    "modelName": "EXCERIA PRO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0335",
+    "modelName": "EXCERIA PRO",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0336",
+    "modelName": "EXCERIA G2",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0337",
+    "modelName": "EXCERIA G2",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0338",
+    "modelName": "EXCERIA G2",
+    "modelNumber": "",
+    "releaseYear": 2021,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0339",
+    "modelName": "EXCERIA PLUS G2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0340",
+    "modelName": "EXCERIA PLUS G2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0341",
+    "modelName": "EXCERIA PLUS G2",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0342",
+    "modelName": "EXCERIA PLUS",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0343",
+    "modelName": "EXCERIA PLUS",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0344",
+    "modelName": "EXCERIA PLUS",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 2048
+  },
+  {
+    "code": "SSD-0345",
+    "modelName": "EXCERIA (NVMe)",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 250
+  },
+  {
+    "code": "SSD-0346",
+    "modelName": "EXCERIA (NVMe)",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 500
+  },
+  {
+    "code": "SSD-0347",
+    "modelName": "EXCERIA (NVMe)",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "M.2 (NVMe)",
+    "capacityGB": 1024
+  },
+  {
+    "code": "SSD-0348",
+    "modelName": "EXCERIA (SATA)",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 240
+  },
+  {
+    "code": "SSD-0349",
+    "modelName": "EXCERIA (SATA)",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 480
+  },
+  {
+    "code": "SSD-0350",
+    "modelName": "EXCERIA (SATA)",
+    "modelNumber": "",
+    "releaseYear": 2020,
+    "brand": "kioxia",
+    "Form factor": "2.5 SATA 3",
+    "capacityGB": 960
+  }
+]
