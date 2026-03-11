@@ -1,7 +1,9 @@
 package com.example.boopoom;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
 public class BoopoomApplication {
@@ -10,4 +12,8 @@ public class BoopoomApplication {
 		SpringApplication.run(BoopoomApplication.class, args);
 	}
 
+	@Bean
+	public ObjectMapper objectMapper() {
+		return new ObjectMapper();
+	}
 }

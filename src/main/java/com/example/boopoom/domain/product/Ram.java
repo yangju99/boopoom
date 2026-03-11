@@ -12,8 +12,6 @@ import lombok.Setter;
 @Setter
 public class Ram extends Product{
     private int capacityGb;
-    private int clockSpeedMhz;
-    private int casLatency;
 
     public static Ram createRam(
             String modelName,
@@ -21,9 +19,7 @@ public class Ram extends Product{
             int releaseYear,
             String brand,
             String generation,
-            int capacityGb,
-            int clockSpeedMhz,
-            int casLatency
+            int capacityGb
     ) {
         Ram ram = new Ram();
 
@@ -34,8 +30,6 @@ public class Ram extends Product{
         ram.setGeneration(generation);
 
         ram.setCapacityGb(capacityGb);
-        ram.setClockSpeedMhz(clockSpeedMhz);
-        ram.setCasLatency(casLatency);
 
         return ram;
     }
@@ -49,8 +43,6 @@ public class Ram extends Product{
         ram.setGeneration(ramForm.getGeneration());
 
         ram.setCapacityGb(ramForm.getCapacityGb());
-        ram.setClockSpeedMhz(ramForm.getClockSpeedMhz());
-        ram.setCasLatency(ramForm.getCasLatency());
 
         return ram;
     }

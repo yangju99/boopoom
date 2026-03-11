@@ -16,9 +16,10 @@ import com.example.boopoom.repository.TradeImageRepository;
 import com.example.boopoom.repository.TradeRepository;
 import com.example.boopoom.repository.UserRepository;
 import com.example.boopoom.service.TradeImageStorageService;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.json.JsonMapper;
 import jakarta.persistence.EntityManager;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,8 +29,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.annotation.Order;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
-import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.support.TransactionTemplate;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.support.TransactionSynchronization;
+import org.springframework.transaction.support.TransactionSynchronizationManager;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -43,11 +45,11 @@ import java.util.Map;
 @Component
 @Order(100)
 @RequiredArgsConstructor
+@Transactional
 @ConditionalOnProperty(name = "boopoom.seed.enabled", havingValue = "true")
 public class JsonDataSeedRunner implements CommandLineRunner {
 
-    // Keep JSON loading self-contained so seeding does not depend on auto-configured web beans.
-    private final ObjectMapper objectMapper = JsonMapper.builder().findAndAddModules().build();
+    private final ObjectMapper objectMapper;
     private final ProductRepository productRepository;
     private final UserRepository userRepository;
     private final TradeRepository tradeRepository;
@@ -56,7 +58,6 @@ public class JsonDataSeedRunner implements CommandLineRunner {
     private final PasswordEncoder passwordEncoder;
     private final EntityManager em;
     private final ConfigurableApplicationContext context;
-    private final PlatformTransactionManager transactionManager;
 
     @org.springframework.beans.factory.annotation.Value("${boopoom.seed.force:false}")
     private boolean forceSeed;
@@ -66,36 +67,22 @@ public class JsonDataSeedRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        SeedResult result = new TransactionTemplate(transactionManager).execute(status -> {
-            try {
-                if (!forceSeed && hasAnyData()) {
-                    return SeedResult.skippedResult();
-                }
-
-                if (forceSeed) {
-                    clearAllData();
-                }
-
-                Map<String, Product> productMap = seedProducts();
-                Map<String, User> userMap = seedUsers();
-                seedTrades(userMap, productMap);
-
-                return SeedResult.completedResult(count("Product"), count("User"), count("Trade"));
-            } catch (IOException e) {
-                throw new IllegalStateException("Failed to load seed data from JSON.", e);
-            }
-        });
-
-        if (result == null) {
-            throw new IllegalStateException("Seed transaction did not produce a result.");
-        }
-
-        if (result.skipped()) {
+        if (!forceSeed && hasAnyData()) {
             log.info("Seed skipped: data already exists. Use --boopoom.seed.force=true to reseed.");
-        } else {
-            log.info("Seed completed. products={}, users={}, trades={}",
-                    result.productCount(), result.userCount(), result.tradeCount());
+            closeIfRequested();
+            return;
         }
+
+        if (forceSeed) {
+            clearAllData();
+        }
+
+        Map<String, Product> productMap = seedProducts();
+        Map<String, User> userMap = seedUsers();
+        seedTrades(userMap, productMap);
+
+        log.info("Seed completed. products={}, users={}, trades={}",
+                count("Product"), count("User"), count("Trade"));
         closeIfRequested();
     }
 
@@ -117,30 +104,39 @@ public class JsonDataSeedRunner implements CommandLineRunner {
 
     private void closeIfRequested() {
         if (exitAfterSeed) {
-            context.close();
+            if (TransactionSynchronizationManager.isSynchronizationActive()) {
+                TransactionSynchronizationManager.registerSynchronization(new TransactionSynchronization() {
+                    @Override
+                    public void afterCompletion(int status) {
+                        new Thread(() -> context.close()).start();
+                    }
+                });
+            } else {
+                new Thread(() -> context.close()).start();
+            }
         }
     }
 
     private Map<String, Product> seedProducts() throws IOException {
         Map<String, Product> productMap = new HashMap<>();
 
-        for (GpuSeed seed : readList("data/product/gpu.json", new TypeReference<List<GpuSeed>>() {})) {
+        for (GpuSeed seed : readList("data/productdata/gpu.json", new TypeReference<List<GpuSeed>>() {})) {
             Gpu gpu = Gpu.createGpu(seed.modelName(), seed.modelNumber(), seed.releaseYear(), seed.brand(), seed.generation(),
-                    seed.vramGb(), seed.clockSpeedMhz(), seed.powerRequirementW());
+                    seed.vramGb(), seed.powerRequirementW());
             productRepository.save(gpu);
             productMap.put(seed.code(), gpu);
         }
 
-        for (SsdSeed seed : readList("data/product/ssd.json", new TypeReference<List<SsdSeed>>() {})) {
+        for (SsdSeed seed : readList("data/productdata/ssd.json", new TypeReference<List<SsdSeed>>() {})) {
             Ssd ssd = Ssd.createSsd(seed.modelName(), seed.modelNumber(), seed.releaseYear(), seed.brand(), seed.generation(),
                     seed.capacityGb());
             productRepository.save(ssd);
             productMap.put(seed.code(), ssd);
         }
 
-        for (RamSeed seed : readList("data/product/ram.json", new TypeReference<List<RamSeed>>() {})) {
+        for (RamSeed seed : readList("data/productdata/ram.json", new TypeReference<List<RamSeed>>() {})) {
             Ram ram = Ram.createRam(seed.modelName(), seed.modelNumber(), seed.releaseYear(), seed.brand(), seed.generation(),
-                    seed.capacityGb(), seed.clockSpeedMhz(), seed.casLatency());
+                    seed.capacityGb());
             productRepository.save(ram);
             productMap.put(seed.code(), ram);
         }
@@ -252,19 +248,31 @@ public class JsonDataSeedRunner implements CommandLineRunner {
         return objectMapper.readValue(Path.of(path).toFile(), type);
     }
 
+    @JsonIgnoreProperties(ignoreUnknown = true)
     private record GpuSeed(
+            String code,
+            String modelName,
+            @JsonProperty("codeName") String modelNumber,
+            int releaseYear,
+            @JsonProperty("brank") String brand,
+            String generation,
+            @JsonProperty("vramGB") int vramGb,
+            int powerRequirementW
+    ) {}
+
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    private record SsdSeed(
             String code,
             String modelName,
             String modelNumber,
             int releaseYear,
             String brand,
-            String generation,
-            int vramGb,
-            int clockSpeedMhz,
-            int powerRequirementW
+            @JsonProperty("Form factor") String generation,
+            @JsonProperty("capacityGB") int capacityGb
     ) {}
 
-    private record SsdSeed(
+    @JsonIgnoreProperties(ignoreUnknown = true)
+    private record RamSeed(
             String code,
             String modelName,
             String modelNumber,
@@ -274,18 +282,7 @@ public class JsonDataSeedRunner implements CommandLineRunner {
             int capacityGb
     ) {}
 
-    private record RamSeed(
-            String code,
-            String modelName,
-            String modelNumber,
-            int releaseYear,
-            String brand,
-            String generation,
-            int capacityGb,
-            int clockSpeedMhz,
-            int casLatency
-    ) {}
-
+    @JsonIgnoreProperties(ignoreUnknown = true)
     private record UserSeed(
             String nickName,
             String email,
@@ -294,6 +291,7 @@ public class JsonDataSeedRunner implements CommandLineRunner {
             Integer points
     ) {}
 
+    @JsonIgnoreProperties(ignoreUnknown = true)
     private record TradeSeed(
             String userEmail,
             String productCode,
@@ -305,15 +303,4 @@ public class JsonDataSeedRunner implements CommandLineRunner {
             String status,
             List<String> images
     ) {}
-
-    private record SeedResult(boolean skipped, long productCount, long userCount, long tradeCount) {
-
-        private static SeedResult skippedResult() {
-            return new SeedResult(true, 0, 0, 0);
-        }
-
-        private static SeedResult completedResult(long productCount, long userCount, long tradeCount) {
-            return new SeedResult(false, productCount, userCount, tradeCount);
-        }
-    }
 }

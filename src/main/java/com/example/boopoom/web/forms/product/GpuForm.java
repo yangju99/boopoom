@@ -8,7 +8,6 @@ import lombok.Setter;
 @Setter
 public class GpuForm extends ProductForm{
     private int vramGb;
-    private int clockSpeedMhz;
     private int powerRequirementW;
 
     public static GpuForm fromEntity(Gpu gpu) {
@@ -19,7 +18,6 @@ public class GpuForm extends ProductForm{
         form.setBrand(gpu.getBrand());
         form.setGeneration(gpu.getGeneration());
         form.setVramGb(gpu.getVramGb());
-        form.setClockSpeedMhz(gpu.getClockSpeedMhz());
         form.setPowerRequirementW(gpu.getPowerRequirementW());
         return form;
     }
